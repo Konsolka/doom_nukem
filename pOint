@@ -1,0 +1,2211 @@
+WAD Type = IWAD
+Dir Offset = 4175796
+Dir Count = 1264
+name = PLAYPAL   offset = 12   size = 10752
+name = COLORMAP   offset = 10764   size = 8704
+name = ENDOOM   offset = 19468   size = 4000
+name = DEMO1   offset = 23468   size = 20118
+name = DEMO2   offset = 43588   size = 15358
+name = DEMO3   offset = 58948   size = 8550
+name = E1M1   offset = 67500   size = 0
+name = THINGS   offset = 67500   size = 1380
+name = LINEDEFS   offset = 68880   size = 6650
+name = SIDEDEFS   offset = 75532   size = 19440
+name = VERTEXES   offset = 94972   size = 1868
+name = SEGS   offset = 96840   size = 8784
+name = SSECTORS   offset = 105624   size = 948
+name = NODES   offset = 106572   size = 6608
+name = SECTORS   offset = 113180   size = 2210
+name = REJECT   offset = 115392   size = 904
+name = BLOCKMAP   offset = 116296   size = 6922
+name = E1M2   offset = 123220   size = 0
+name = THINGS   offset = 123220   size = 2620
+name = LINEDEFS   offset = 125840   size = 14462
+name = SIDEDEFS   offset = 140304   size = 39690
+name = VERTEXES   offset = 179996   size = 3768
+name = SEGS   offset = 183764   size = 17556
+name = SSECTORS   offset = 201320   size = 1792
+name = NODES   offset = 203112   size = 12516
+name = SECTORS   offset = 215628   size = 5200
+name = REJECT   offset = 220828   size = 5000
+name = BLOCKMAP   offset = 225828   size = 11870
+name = E1M3   offset = 237700   size = 0
+name = THINGS   offset = 237700   size = 3800
+name = LINEDEFS   offset = 241500   size = 14364
+name = SIDEDEFS   offset = 255864   size = 39780
+name = VERTEXES   offset = 295644   size = 3784
+name = SEGS   offset = 299428   size = 17340
+name = SSECTORS   offset = 316768   size = 1844
+name = NODES   offset = 318612   size = 12880
+name = SECTORS   offset = 331492   size = 4602
+name = REJECT   offset = 336096   size = 3917
+name = BLOCKMAP   offset = 340016   size = 8894
+name = E1M4   offset = 348912   size = 0
+name = THINGS   offset = 348912   size = 2540
+name = LINEDEFS   offset = 351452   size = 11620
+name = SIDEDEFS   offset = 363072   size = 31620
+name = VERTEXES   offset = 394692   size = 3120
+name = SEGS   offset = 397812   size = 14064
+name = SSECTORS   offset = 411876   size = 1420
+name = NODES   offset = 413296   size = 9912
+name = SECTORS   offset = 423208   size = 3614
+name = REJECT   offset = 426824   size = 2416
+name = BLOCKMAP   offset = 429240   size = 7218
+name = E1M5   offset = 436460   size = 0
+name = THINGS   offset = 436460   size = 2930
+name = LINEDEFS   offset = 439392   size = 11550
+name = SIDEDEFS   offset = 450944   size = 31590
+name = VERTEXES   offset = 482536   size = 2984
+name = SEGS   offset = 485520   size = 13692
+name = SSECTORS   offset = 499212   size = 1536
+name = NODES   offset = 500748   size = 10724
+name = SECTORS   offset = 511472   size = 3718
+name = REJECT   offset = 515192   size = 2557
+name = BLOCKMAP   offset = 517752   size = 8032
+name = E1M6   offset = 525784   size = 0
+name = THINGS   offset = 525784   size = 4630
+name = LINEDEFS   offset = 530416   size = 18928
+name = SIDEDEFS   offset = 549344   size = 51810
+name = VERTEXES   offset = 601156   size = 4828
+name = SEGS   offset = 605984   size = 22344
+name = SSECTORS   offset = 628328   size = 2424
+name = NODES   offset = 630752   size = 16940
+name = SECTORS   offset = 647692   size = 6500
+name = REJECT   offset = 654192   size = 7813
+name = BLOCKMAP   offset = 662008   size = 15804
+name = E1M7   offset = 677812   size = 0
+name = THINGS   offset = 677812   size = 3580
+name = LINEDEFS   offset = 681392   size = 13412
+name = SIDEDEFS   offset = 694804   size = 36690
+name = VERTEXES   offset = 731496   size = 3584
+name = SEGS   offset = 735080   size = 16452
+name = SSECTORS   offset = 751532   size = 1868
+name = NODES   offset = 753400   size = 13048
+name = SECTORS   offset = 766448   size = 4420
+name = REJECT   offset = 770868   size = 3613
+name = BLOCKMAP   offset = 774484   size = 8846
+name = E1M8   offset = 783332   size = 0
+name = THINGS   offset = 783332   size = 1260
+name = LINEDEFS   offset = 784592   size = 4662
+name = SIDEDEFS   offset = 789256   size = 15330
+name = VERTEXES   offset = 804588   size = 1312
+name = SEGS   offset = 805900   size = 7032
+name = SSECTORS   offset = 812932   size = 708
+name = NODES   offset = 813640   size = 4928
+name = SECTORS   offset = 818568   size = 1924
+name = REJECT   offset = 820492   size = 685
+name = BLOCKMAP   offset = 821180   size = 19400
+name = E1M9   offset = 840580   size = 0
+name = THINGS   offset = 840580   size = 2370
+name = LINEDEFS   offset = 842952   size = 9142
+name = SIDEDEFS   offset = 852096   size = 27060
+name = VERTEXES   offset = 879156   size = 2324
+name = SEGS   offset = 881480   size = 11736
+name = SSECTORS   offset = 893216   size = 1152
+name = NODES   offset = 894368   size = 8036
+name = SECTORS   offset = 902404   size = 3822
+name = REJECT   offset = 906228   size = 2702
+name = BLOCKMAP   offset = 908932   size = 6780
+name = TEXTURE1   offset = 915712   size = 9234
+name = PNAMES   offset = 924948   size = 2804
+name = GENMIDI   offset = 927752   size = 11908
+name = DMXGUS   offset = 939660   size = 5342
+name = DPPISTOL   offset = 945004   size = 31
+name = DSPISTOL   offset = 945036   size = 5669
+name = DPSHOTGN   offset = 950708   size = 51
+name = DSSHOTGN   offset = 950760   size = 9453
+name = DPSGCOCK   offset = 960216   size = 38
+name = DSSGCOCK   offset = 960256   size = 5906
+name = DPSAWUP   offset = 966164   size = 150
+name = DSSAWUP   offset = 966316   size = 16297
+name = DPSAWIDL   offset = 982616   size = 24
+name = DSSAWIDL   offset = 982640   size = 7539
+name = DPSAWFUL   offset = 990180   size = 24
+name = DSSAWFUL   offset = 990204   size = 18104
+name = DPSAWHIT   offset = 1008308   size = 29
+name = DSSAWHIT   offset = 1008340   size = 8018
+name = DPRLAUNC   offset = 1016360   size = 55
+name = DSRLAUNC   offset = 1016416   size = 15491
+name = DPRXPLOD   offset = 1031908   size = 41
+name = DSRXPLOD   offset = 1031952   size = 14483
+name = DPFIRSHT   offset = 1046436   size = 51
+name = DSFIRSHT   offset = 1046488   size = 14748
+name = DPFIRXPL   offset = 1061236   size = 33
+name = DSFIRXPL   offset = 1061272   size = 11701
+name = DPPSTART   offset = 1072976   size = 12
+name = DSPSTART   offset = 1072988   size = 8236
+name = DPPSTOP   offset = 1081224   size = 11
+name = DSPSTOP   offset = 1081236   size = 6666
+name = DPDOROPN   offset = 1087904   size = 55
+name = DSDOROPN   offset = 1087960   size = 13824
+name = DPDORCLS   offset = 1101784   size = 52
+name = DSDORCLS   offset = 1101836   size = 13890
+name = DPSTNMOV   offset = 1115728   size = 11
+name = DSSTNMOV   offset = 1115740   size = 2967
+name = DPSWTCHN   offset = 1118708   size = 12
+name = DSSWTCHN   offset = 1118720   size = 6263
+name = DPSWTCHX   offset = 1124984   size = 12
+name = DSSWTCHX   offset = 1124996   size = 5411
+name = DPPLPAIN   offset = 1130408   size = 39
+name = DSPLPAIN   offset = 1130448   size = 15160
+name = DPDMPAIN   offset = 1145608   size = 39
+name = DSDMPAIN   offset = 1145648   size = 9519
+name = DPPOPAIN   offset = 1155168   size = 42
+name = DSPOPAIN   offset = 1155212   size = 8643
+name = DPSLOP   offset = 1163856   size = 43
+name = DSSLOP   offset = 1163900   size = 11126
+name = DPITEMUP   offset = 1175028   size = 57
+name = DSITEMUP   offset = 1175088   size = 2271
+name = DPWPNUP   offset = 1177360   size = 19
+name = DSWPNUP   offset = 1177380   size = 5883
+name = DPOOF   offset = 1183264   size = 14
+name = DSOOF   offset = 1183280   size = 3918
+name = DPTELEPT   offset = 1187200   size = 82
+name = DSTELEPT   offset = 1187284   size = 15492
+name = DPPOSIT1   offset = 1202776   size = 63
+name = DSPOSIT1   offset = 1202840   size = 5342
+name = DPPOSIT2   offset = 1208184   size = 63
+name = DSPOSIT2   offset = 1208248   size = 11286
+name = DPPOSIT3   offset = 1219536   size = 63
+name = DSPOSIT3   offset = 1219600   size = 11103
+name = DPBGSIT1   offset = 1230704   size = 63
+name = DSBGSIT1   offset = 1230768   size = 13634
+name = DPBGSIT2   offset = 1244404   size = 63
+name = DSBGSIT2   offset = 1244468   size = 16083
+name = DPSGTSIT   offset = 1260552   size = 63
+name = DSSGTSIT   offset = 1260616   size = 11172
+name = DPBRSSIT   offset = 1271788   size = 133
+name = DSBRSSIT   offset = 1271924   size = 13770
+name = DPSGTATK   offset = 1285696   size = 63
+name = DSSGTATK   offset = 1285760   size = 9358
+name = DPCLAW   offset = 1295120   size = 63
+name = DSCLAW   offset = 1295184   size = 6412
+name = DPPLDETH   offset = 1301596   size = 83
+name = DSPLDETH   offset = 1301680   size = 11020
+name = DPPDIEHI   offset = 1312700   size = 14
+name = DSPDIEHI   offset = 1312716   size = 10843
+name = DPPODTH1   offset = 1323560   size = 87
+name = DSPODTH1   offset = 1323648   size = 12971
+name = DPPODTH2   offset = 1336620   size = 87
+name = DSPODTH2   offset = 1336708   size = 9342
+name = DPPODTH3   offset = 1346052   size = 87
+name = DSPODTH3   offset = 1346140   size = 10954
+name = DPBGDTH1   offset = 1357096   size = 87
+name = DSBGDTH1   offset = 1357184   size = 7129
+name = DPBGDTH2   offset = 1364316   size = 87
+name = DSBGDTH2   offset = 1364404   size = 9319
+name = DPSGTDTH   offset = 1373724   size = 87
+name = DSSGTDTH   offset = 1373812   size = 12259
+name = DPBRSDTH   offset = 1386072   size = 69
+name = DSBRSDTH   offset = 1386144   size = 11043
+name = DPPOSACT   offset = 1397188   size = 107
+name = DSPOSACT   offset = 1397296   size = 10782
+name = DPBGACT   offset = 1408080   size = 107
+name = DSBGACT   offset = 1408188   size = 10032
+name = DPDMACT   offset = 1418220   size = 107
+name = DSDMACT   offset = 1418328   size = 11857
+name = DPNOWAY   offset = 1430188   size = 38
+name = DSNOWAY   offset = 1430228   size = 3918
+name = DPBAREXP   offset = 1434148   size = 122
+name = DSBAREXP   offset = 1434272   size = 18600
+name = DPPUNCH   offset = 1452872   size = 63
+name = DSPUNCH   offset = 1452936   size = 2504
+name = DPTINK   offset = 1455440   size = 19
+name = DSTINK   offset = 1455460   size = 205
+name = DPBDOPN   offset = 1455668   size = 55
+name = DSBDOPN   offset = 1455724   size = 4189
+name = DPBDCLS   offset = 1459916   size = 52
+name = DSBDCLS   offset = 1459968   size = 4203
+name = DPITMBK   offset = 1464172   size = 19
+name = DSITMBK   offset = 1464192   size = 11183
+name = DPGETPOW   offset = 1475376   size = 14
+name = DSGETPOW   offset = 1475392   size = 7936
+name = D_E1M1   offset = 1483328   size = 17283
+name = D_E1M2   offset = 1500612   size = 36776
+name = D_E1M3   offset = 1537388   size = 19276
+name = D_E1M4   offset = 1556664   size = 18216
+name = D_E1M5   offset = 1574880   size = 9830
+name = D_E1M6   offset = 1584712   size = 9456
+name = D_E1M7   offset = 1594168   size = 8591
+name = D_E1M8   offset = 1602760   size = 59535
+name = D_E1M9   offset = 1662296   size = 21266
+name = D_INTER   offset = 1683564   size = 29082
+name = D_INTRO   offset = 1712648   size = 1485
+name = D_VICTOR   offset = 1714136   size = 13752
+name = D_INTROA   offset = 1727888   size = 631
+name = HELP1   offset = 1728520   size = 68168
+name = HELP2   offset = 1796688   size = 68168
+name = CREDIT   offset = 1864856   size = 68168
+name = TITLEPIC   offset = 1933024   size = 68168
+name = AMMNUM0   offset = 2001192   size = 48
+name = AMMNUM1   offset = 2001240   size = 32
+name = AMMNUM2   offset = 2001272   size = 60
+name = AMMNUM3   offset = 2001332   size = 60
+name = AMMNUM4   offset = 2001392   size = 44
+name = AMMNUM5   offset = 2001436   size = 60
+name = AMMNUM6   offset = 2001496   size = 56
+name = AMMNUM7   offset = 2001552   size = 52
+name = AMMNUM8   offset = 2001604   size = 60
+name = AMMNUM9   offset = 2001664   size = 52
+name = STBAR   offset = 2001716   size = 13128
+name = STGNUM0   offset = 2014844   size = 68
+name = STGNUM1   offset = 2014912   size = 64
+name = STGNUM2   offset = 2014976   size = 76
+name = STGNUM3   offset = 2015052   size = 72
+name = STGNUM4   offset = 2015124   size = 60
+name = STGNUM5   offset = 2015184   size = 72
+name = STGNUM6   offset = 2015256   size = 72
+name = STGNUM7   offset = 2015328   size = 72
+name = STGNUM8   offset = 2015400   size = 76
+name = STGNUM9   offset = 2015476   size = 72
+name = STTMINUS   offset = 2015548   size = 128
+name = STTNUM0   offset = 2015676   size = 320
+name = STTNUM1   offset = 2015996   size = 244
+name = STTNUM2   offset = 2016240   size = 336
+name = STTNUM3   offset = 2016576   size = 336
+name = STTNUM4   offset = 2016912   size = 316
+name = STTNUM5   offset = 2017228   size = 348
+name = STTNUM6   offset = 2017576   size = 340
+name = STTNUM7   offset = 2017916   size = 276
+name = STTNUM8   offset = 2018192   size = 348
+name = STTNUM9   offset = 2018540   size = 336
+name = STTPRCNT   offset = 2018876   size = 328
+name = STYSNUM0   offset = 2019204   size = 68
+name = STYSNUM1   offset = 2019272   size = 64
+name = STYSNUM2   offset = 2019336   size = 76
+name = STYSNUM3   offset = 2019412   size = 72
+name = STYSNUM4   offset = 2019484   size = 60
+name = STYSNUM5   offset = 2019544   size = 72
+name = STYSNUM6   offset = 2019616   size = 72
+name = STYSNUM7   offset = 2019688   size = 72
+name = STYSNUM8   offset = 2019760   size = 76
+name = STYSNUM9   offset = 2019836   size = 72
+name = STKEYS0   offset = 2019908   size = 104
+name = STKEYS1   offset = 2020012   size = 104
+name = STKEYS2   offset = 2020116   size = 104
+name = STKEYS3   offset = 2020220   size = 120
+name = STKEYS4   offset = 2020340   size = 120
+name = STKEYS5   offset = 2020460   size = 120
+name = STDISK   offset = 2020580   size = 392
+name = STCDROM   offset = 2020972   size = 328
+name = STARMS   offset = 2021300   size = 1648
+name = STCFN033   offset = 2022948   size = 72
+name = STCFN034   offset = 2023020   size = 100
+name = STCFN035   offset = 2023120   size = 116
+name = STCFN036   offset = 2023236   size = 128
+name = STCFN037   offset = 2023364   size = 144
+name = STCFN038   offset = 2023508   size = 132
+name = STCFN039   offset = 2023640   size = 60
+name = STCFN040   offset = 2023700   size = 120
+name = STCFN041   offset = 2023820   size = 120
+name = STCFN042   offset = 2023940   size = 96
+name = STCFN043   offset = 2024036   size = 76
+name = STCFN044   offset = 2024112   size = 60
+name = STCFN045   offset = 2024172   size = 80
+name = STCFN046   offset = 2024252   size = 56
+name = STCFN047   offset = 2024308   size = 100
+name = STCFN048   offset = 2024408   size = 132
+name = STCFN049   offset = 2024540   size = 84
+name = STCFN050   offset = 2024624   size = 140
+name = STCFN051   offset = 2024764   size = 132
+name = STCFN052   offset = 2024896   size = 116
+name = STCFN053   offset = 2025012   size = 124
+name = STCFN054   offset = 2025136   size = 132
+name = STCFN055   offset = 2025268   size = 120
+name = STCFN056   offset = 2025388   size = 140
+name = STCFN057   offset = 2025528   size = 132
+name = STCFN058   offset = 2025660   size = 84
+name = STCFN059   offset = 2025744   size = 72
+name = STCFN060   offset = 2025816   size = 80
+name = STCFN061   offset = 2025896   size = 80
+name = STCFN062   offset = 2025976   size = 80
+name = STCFN063   offset = 2026056   size = 128
+name = STCFN064   offset = 2026184   size = 156
+name = STCFN065   offset = 2026340   size = 132
+name = STCFN066   offset = 2026472   size = 140
+name = STCFN067   offset = 2026612   size = 140
+name = STCFN068   offset = 2026752   size = 132
+name = STCFN069   offset = 2026884   size = 132
+name = STCFN070   offset = 2027016   size = 128
+name = STCFN071   offset = 2027144   size = 132
+name = STCFN072   offset = 2027276   size = 136
+name = STCFN073   offset = 2027412   size = 72
+name = STCFN074   offset = 2027484   size = 120
+name = STCFN075   offset = 2027604   size = 140
+name = STCFN076   offset = 2027744   size = 120
+name = STCFN077   offset = 2027864   size = 148
+name = STCFN078   offset = 2028012   size = 136
+name = STCFN079   offset = 2028148   size = 124
+name = STCFN080   offset = 2028272   size = 128
+name = STCFN081   offset = 2028400   size = 136
+name = STCFN082   offset = 2028536   size = 140
+name = STCFN083   offset = 2028676   size = 120
+name = STCFN084   offset = 2028796   size = 120
+name = STCFN085   offset = 2028916   size = 132
+name = STCFN086   offset = 2029048   size = 108
+name = STCFN087   offset = 2029156   size = 148
+name = STCFN088   offset = 2029304   size = 160
+name = STCFN089   offset = 2029464   size = 124
+name = STCFN090   offset = 2029588   size = 128
+name = STCFN091   offset = 2029716   size = 92
+name = STCFN092   offset = 2029808   size = 100
+name = STCFN093   offset = 2029908   size = 92
+name = STCFN094   offset = 2030000   size = 96
+name = STCFN095   offset = 2030096   size = 104
+name = STCFN121   offset = 2030200   size = 72
+name = STFB1   offset = 2030272   size = 1408
+name = STFB0   offset = 2031680   size = 1408
+name = STFB2   offset = 2033088   size = 1408
+name = STFB3   offset = 2034496   size = 1408
+name = STPB1   offset = 2035904   size = 1480
+name = STPB0   offset = 2037384   size = 1480
+name = STPB2   offset = 2038864   size = 1480
+name = STPB3   offset = 2040344   size = 1480
+name = STFST01   offset = 2041824   size = 808
+name = STFST00   offset = 2042632   size = 808
+name = STFST02   offset = 2043440   size = 808
+name = STFTL00   offset = 2044248   size = 884
+name = STFTR00   offset = 2045132   size = 880
+name = STFOUCH0   offset = 2046012   size = 844
+name = STFEVL0   offset = 2046856   size = 816
+name = STFKILL0   offset = 2047672   size = 824
+name = STFST11   offset = 2048496   size = 808
+name = STFST10   offset = 2049304   size = 808
+name = STFST12   offset = 2050112   size = 800
+name = STFTL10   offset = 2050912   size = 884
+name = STFTR10   offset = 2051796   size = 888
+name = STFOUCH1   offset = 2052684   size = 844
+name = STFEVL1   offset = 2053528   size = 816
+name = STFKILL1   offset = 2054344   size = 824
+name = STFST21   offset = 2055168   size = 828
+name = STFST20   offset = 2055996   size = 824
+name = STFST22   offset = 2056820   size = 824
+name = STFTL20   offset = 2057644   size = 896
+name = STFTR20   offset = 2058540   size = 896
+name = STFOUCH2   offset = 2059436   size = 844
+name = STFEVL2   offset = 2060280   size = 816
+name = STFKILL2   offset = 2061096   size = 824
+name = STFST31   offset = 2061920   size = 836
+name = STFST30   offset = 2062756   size = 840
+name = STFST32   offset = 2063596   size = 832
+name = STFTL30   offset = 2064428   size = 944
+name = STFTR30   offset = 2065372   size = 908
+name = STFOUCH3   offset = 2066280   size = 844
+name = STFEVL3   offset = 2067124   size = 816
+name = STFKILL3   offset = 2067940   size = 824
+name = STFST41   offset = 2068764   size = 836
+name = STFST40   offset = 2069600   size = 844
+name = STFST42   offset = 2070444   size = 844
+name = STFTL40   offset = 2071288   size = 984
+name = STFTR40   offset = 2072272   size = 908
+name = STFOUCH4   offset = 2073180   size = 844
+name = STFEVL4   offset = 2074024   size = 816
+name = STFKILL4   offset = 2074840   size = 824
+name = STFGOD0   offset = 2075664   size = 808
+name = STFDEAD0   offset = 2076472   size = 836
+name = M_DOOM   offset = 2077308   size = 6772
+name = M_RDTHIS   offset = 2084080   size = 2312
+name = M_OPTION   offset = 2086392   size = 1856
+name = M_QUITG   offset = 2088248   size = 2220
+name = M_NGAME   offset = 2090468   size = 2128
+name = M_SKULL1   offset = 2092596   size = 504
+name = M_SKULL2   offset = 2093100   size = 504
+name = M_THERMO   offset = 2093604   size = 108
+name = M_THERMR   offset = 2093712   size = 140
+name = M_THERMM   offset = 2093852   size = 208
+name = M_THERML   offset = 2094060   size = 140
+name = M_ENDGAM   offset = 2094200   size = 2180
+name = M_PAUSE   offset = 2096380   size = 1408
+name = M_MESSG   offset = 2097788   size = 2448
+name = M_MSGON   offset = 2100236   size = 628
+name = M_MSGOFF   offset = 2100864   size = 728
+name = M_EPISOD   offset = 2101592   size = 3404
+name = M_EPI1   offset = 2104996   size = 4908
+name = M_EPI2   offset = 2109904   size = 4220
+name = M_EPI3   offset = 2114124   size = 1784
+name = M_HURT   offset = 2115908   size = 3232
+name = M_JKILL   offset = 2119140   size = 4248
+name = M_ROUGH   offset = 2123388   size = 4320
+name = M_SKILL   offset = 2127708   size = 4396
+name = M_NEWG   offset = 2132104   size = 2452
+name = M_ULTRA   offset = 2134556   size = 3632
+name = M_NMARE   offset = 2138188   size = 2636
+name = M_SVOL   offset = 2140824   size = 3192
+name = M_OPTTTL   offset = 2144016   size = 2164
+name = M_SAVEG   offset = 2146180   size = 2364
+name = M_LOADG   offset = 2148544   size = 2332
+name = M_DISP   offset = 2150876   size = 1692
+name = M_MSENS   offset = 2152568   size = 3920
+name = M_GDHIGH   offset = 2156488   size = 996
+name = M_GDLOW   offset = 2157484   size = 800
+name = M_DETAIL   offset = 2158284   size = 3300
+name = M_DISOPT   offset = 2161584   size = 4268
+name = M_SCRNSZ   offset = 2165852   size = 2852
+name = M_SGTTL   offset = 2168704   size = 2796
+name = M_LGTTL   offset = 2171500   size = 2796
+name = M_SFXVOL   offset = 2174296   size = 2520
+name = M_MUSVOL   offset = 2176816   size = 2976
+name = M_LSLEFT   offset = 2179792   size = 192
+name = M_LSCNTR   offset = 2179984   size = 192
+name = M_LSRGHT   offset = 2180176   size = 192
+name = BRDR_TL   offset = 2180368   size = 44
+name = BRDR_T   offset = 2180412   size = 104
+name = BRDR_TR   offset = 2180516   size = 44
+name = BRDR_L   offset = 2180560   size = 60
+name = BRDR_R   offset = 2180620   size = 60
+name = BRDR_BL   offset = 2180680   size = 44
+name = BRDR_B   offset = 2180724   size = 104
+name = BRDR_BR   offset = 2180828   size = 44
+name = WIMAP0   offset = 2180872   size = 68168
+name = WIA00900   offset = 2249040   size = 144
+name = WIA00901   offset = 2249184   size = 144
+name = WIA00902   offset = 2249328   size = 144
+name = WIA00800   offset = 2249472   size = 208
+name = WIA00801   offset = 2249680   size = 208
+name = WIA00802   offset = 2249888   size = 208
+name = WIA00700   offset = 2250096   size = 208
+name = WIA00701   offset = 2250304   size = 208
+name = WIA00702   offset = 2250512   size = 208
+name = WIA00600   offset = 2250720   size = 144
+name = WIA00601   offset = 2250864   size = 144
+name = WIA00602   offset = 2251008   size = 144
+name = WIA00500   offset = 2251152   size = 144
+name = WIA00501   offset = 2251296   size = 144
+name = WIA00502   offset = 2251440   size = 144
+name = WIA00400   offset = 2251584   size = 144
+name = WIA00401   offset = 2251728   size = 144
+name = WIA00402   offset = 2251872   size = 144
+name = WIA00300   offset = 2252016   size = 208
+name = WIA00301   offset = 2252224   size = 208
+name = WIA00302   offset = 2252432   size = 208
+name = WIA00200   offset = 2252640   size = 208
+name = WIA00201   offset = 2252848   size = 208
+name = WIA00202   offset = 2253056   size = 208
+name = WIA00100   offset = 2253264   size = 416
+name = WIA00101   offset = 2253680   size = 416
+name = WIA00102   offset = 2254096   size = 416
+name = WIA00000   offset = 2254512   size = 144
+name = WIA00001   offset = 2254656   size = 144
+name = WIA00002   offset = 2254800   size = 144
+name = WIURH0   offset = 2254944   size = 1080
+name = WIURH1   offset = 2256024   size = 1080
+name = WISPLAT   offset = 2257104   size = 644
+name = WIOSTK   offset = 2257748   size = 1084
+name = WIOSTI   offset = 2258832   size = 1184
+name = WIF   offset = 2260016   size = 1844
+name = WIMSTT   offset = 2261860   size = 1156
+name = WIOSTS   offset = 2263016   size = 1076
+name = WIOSTF   offset = 2264092   size = 272
+name = WITIME   offset = 2264364   size = 880
+name = WIPAR   offset = 2265244   size = 808
+name = WIMSTAR   offset = 2266052   size = 860
+name = WIMINUS   offset = 2266912   size = 80
+name = WIPCNT   offset = 2266992   size = 264
+name = WINUM0   offset = 2267256   size = 228
+name = WINUM1   offset = 2267484   size = 136
+name = WINUM2   offset = 2267620   size = 244
+name = WINUM3   offset = 2267864   size = 236
+name = WINUM4   offset = 2268100   size = 212
+name = WINUM5   offset = 2268312   size = 244
+name = WINUM6   offset = 2268556   size = 236
+name = WINUM7   offset = 2268792   size = 188
+name = WINUM8   offset = 2268980   size = 232
+name = WINUM9   offset = 2269212   size = 232
+name = WICOLON   offset = 2269444   size = 108
+name = WISUCKS   offset = 2269552   size = 1460
+name = WIFRGS   offset = 2271012   size = 1136
+name = WILV00   offset = 2272148   size = 1712
+name = WILV01   offset = 2273860   size = 3064
+name = WILV02   offset = 2276924   size = 3152
+name = WILV03   offset = 2280076   size = 3896
+name = WILV04   offset = 2283972   size = 2556
+name = WILV05   offset = 2286528   size = 4556
+name = WILV06   offset = 2291084   size = 3960
+name = WILV07   offset = 2295044   size = 3660
+name = WILV08   offset = 2298704   size = 2920
+name = WILV11   offset = 2301624   size = 3964
+name = WILV12   offset = 2305588   size = 1960
+name = WILV14   offset = 2307548   size = 3628
+name = WILV15   offset = 2311176   size = 4336
+name = WILV16   offset = 2315512   size = 3208
+name = WILV17   offset = 2318720   size = 3288
+name = WILV18   offset = 2322008   size = 4656
+name = WILV20   offset = 2326664   size = 2080
+name = WILV21   offset = 2328744   size = 4064
+name = WILV22   offset = 2332808   size = 2944
+name = WILV23   offset = 2335752   size = 3004
+name = WILV24   offset = 2338756   size = 3940
+name = WILV25   offset = 2342696   size = 2304
+name = WILV26   offset = 2345000   size = 2908
+name = WILV27   offset = 2347908   size = 752
+name = WILV28   offset = 2348660   size = 1984
+name = WILV13   offset = 2350644   size = 2416
+name = WILV10   offset = 2353060   size = 3508
+name = WIP1   offset = 2356568   size = 404
+name = WIP2   offset = 2356972   size = 512
+name = WIP3   offset = 2357484   size = 500
+name = WIP4   offset = 2357984   size = 480
+name = WIBP1   offset = 2358464   size = 404
+name = WIBP2   offset = 2358868   size = 512
+name = WIBP3   offset = 2359380   size = 500
+name = WIBP4   offset = 2359880   size = 480
+name = WIKILRS   offset = 2360360   size = 532
+name = WIVCTMS   offset = 2360892   size = 904
+name = WISCRT2   offset = 2361796   size = 1592
+name = WIENTER   offset = 2363388   size = 2036
+name = S_START   offset = 0   size = 0
+name = CHGGA0   offset = 2365424   size = 8180
+name = CHGGB0   offset = 2373604   size = 8204
+name = CHGFA0   offset = 2381808   size = 2684
+name = CHGFB0   offset = 2384492   size = 2308
+name = SAWGA0   offset = 2386800   size = 6692
+name = SAWGB0   offset = 2393492   size = 6692
+name = SAWGC0   offset = 2400184   size = 7852
+name = SAWGD0   offset = 2408036   size = 7980
+name = PISGA0   offset = 2416016   size = 2632
+name = PISGB0   offset = 2418648   size = 3768
+name = PISGC0   offset = 2422416   size = 3664
+name = PISGD0   offset = 2426080   size = 3616
+name = PISGE0   offset = 2429696   size = 4892
+name = PISFA0   offset = 2434588   size = 1408
+name = BAL1A0   offset = 2435996   size = 320
+name = BAL1B0   offset = 2436316   size = 320
+name = BAL1C0   offset = 2436636   size = 1316
+name = BAL1D0   offset = 2437952   size = 1624
+name = BAL1E0   offset = 2439576   size = 2064
+name = PUFFA0   offset = 2441640   size = 76
+name = PUFFB0   offset = 2441716   size = 144
+name = PUFFC0   offset = 2441860   size = 256
+name = PUFFD0   offset = 2442116   size = 376
+name = BLUDA0   offset = 2442492   size = 76
+name = BLUDB0   offset = 2442568   size = 132
+name = BLUDC0   offset = 2442700   size = 216
+name = BAL2A0   offset = 2442916   size = 340
+name = BAL2B0   offset = 2443256   size = 316
+name = BAL2C0   offset = 2443572   size = 1884
+name = BAL2D0   offset = 2445456   size = 2360
+name = BAL2E0   offset = 2447816   size = 2228
+name = MISLB0   offset = 2450044   size = 3788
+name = MISLC0   offset = 2453832   size = 5976
+name = MISLD0   offset = 2459808   size = 4260
+name = TFOGA0   offset = 2464068   size = 2184
+name = TFOGB0   offset = 2466252   size = 1696
+name = TFOGC0   offset = 2467948   size = 1396
+name = TFOGD0   offset = 2469344   size = 1020
+name = TFOGE0   offset = 2470364   size = 392
+name = TFOGF0   offset = 2470756   size = 152
+name = TFOGG0   offset = 2470908   size = 44
+name = TFOGH0   offset = 2470952   size = 88
+name = TFOGI0   offset = 2471040   size = 176
+name = TFOGJ0   offset = 2471216   size = 260
+name = IFOGA0   offset = 2471476   size = 1396
+name = IFOGB0   offset = 2472872   size = 1052
+name = IFOGC0   offset = 2473924   size = 388
+name = IFOGD0   offset = 2474312   size = 144
+name = IFOGE0   offset = 2474456   size = 44
+name = APLSA0   offset = 2474500   size = 244
+name = APLSB0   offset = 2474744   size = 256
+name = APBXA0   offset = 2475000   size = 628
+name = APBXB0   offset = 2475628   size = 1236
+name = APBXC0   offset = 2476864   size = 872
+name = APBXD0   offset = 2477736   size = 460
+name = APBXE0   offset = 2478196   size = 108
+name = MANFA1   offset = 2478304   size = 1104
+name = MANFA8A2   offset = 2479408   size = 1328
+name = MANFA7A3   offset = 2480736   size = 1588
+name = MANFA6A4   offset = 2482324   size = 1344
+name = MANFA5   offset = 2483668   size = 944
+name = MANFB1   offset = 2484612   size = 1092
+name = MANFB8B2   offset = 2485704   size = 1332
+name = MANFB7B3   offset = 2487036   size = 1588
+name = MANFB6B4   offset = 2488624   size = 1232
+name = MANFB5   offset = 2489856   size = 756
+name = BOSFA0   offset = 2490612   size = 1396
+name = BOSFB0   offset = 2492008   size = 1444
+name = BOSFC0   offset = 2493452   size = 1308
+name = BOSFD0   offset = 2494760   size = 1368
+name = PUNGA0   offset = 2496128   size = 3112
+name = PUNGB0   offset = 2499240   size = 2596
+name = PUNGC0   offset = 2501836   size = 4152
+name = PUNGD0   offset = 2505988   size = 6716
+name = MISGA0   offset = 2512704   size = 5976
+name = MISGB0   offset = 2518680   size = 6588
+name = MISFA0   offset = 2525268   size = 1624
+name = MISFB0   offset = 2526892   size = 3208
+name = MISFC0   offset = 2530100   size = 4792
+name = MISFD0   offset = 2534892   size = 4496
+name = MISLA1   offset = 2539388   size = 264
+name = MISLA8A2   offset = 2539652   size = 600
+name = MISLA7A3   offset = 2540252   size = 892
+name = MISLA6A4   offset = 2541144   size = 484
+name = MISLA5   offset = 2541628   size = 264
+name = SHTGA0   offset = 2541892   size = 3400
+name = SHTGB0   offset = 2545292   size = 8860
+name = SHTGC0   offset = 2554152   size = 10368
+name = SHTGD0   offset = 2564520   size = 10668
+name = SHTFA0   offset = 2575188   size = 1156
+name = SHTFB0   offset = 2576344   size = 1668
+name = SARGA1   offset = 2578012   size = 2000
+name = SARGA2A8   offset = 2580012   size = 2384
+name = SARGA3A7   offset = 2582396   size = 2388
+name = SARGA4A6   offset = 2584784   size = 2160
+name = SARGA5   offset = 2586944   size = 1640
+name = SARGB1   offset = 2588584   size = 2080
+name = SARGB2B8   offset = 2590664   size = 2040
+name = SARGB3B7   offset = 2592704   size = 2164
+name = SARGB4B6   offset = 2594868   size = 2056
+name = SARGB5   offset = 2596924   size = 1848
+name = SARGC1   offset = 2598772   size = 1996
+name = SARGC2C8   offset = 2600768   size = 2172
+name = SARGC3C7   offset = 2602940   size = 2288
+name = SARGC4C6   offset = 2605228   size = 1988
+name = SARGC5   offset = 2607216   size = 1640
+name = SARGD1   offset = 2608856   size = 2080
+name = SARGD2D8   offset = 2610936   size = 2144
+name = SARGD3D7   offset = 2613080   size = 2176
+name = SARGD4D6   offset = 2615256   size = 1832
+name = SARGD5   offset = 2617088   size = 1848
+name = SARGE1   offset = 2618936   size = 2144
+name = SARGE2   offset = 2621080   size = 1920
+name = SARGE3   offset = 2623000   size = 2232
+name = SARGE4   offset = 2625232   size = 2028
+name = SARGE5   offset = 2627260   size = 1844
+name = SARGE6   offset = 2629104   size = 1816
+name = SARGE7   offset = 2630920   size = 2336
+name = SARGE8   offset = 2633256   size = 2216
+name = SARGF1   offset = 2635472   size = 2148
+name = SARGF2   offset = 2637620   size = 2124
+name = SARGF3   offset = 2639744   size = 2560
+name = SARGF4   offset = 2642304   size = 2144
+name = SARGF5   offset = 2644448   size = 1976
+name = SARGF6   offset = 2646424   size = 1964
+name = SARGF7   offset = 2648388   size = 2660
+name = SARGF8   offset = 2651048   size = 2456
+name = SARGG1   offset = 2653504   size = 2172
+name = SARGG2   offset = 2655676   size = 2012
+name = SARGG3   offset = 2657688   size = 2436
+name = SARGG4   offset = 2660124   size = 2088
+name = SARGG5   offset = 2662212   size = 2036
+name = SARGG6   offset = 2664248   size = 1936
+name = SARGG7   offset = 2666184   size = 2528
+name = SARGG8   offset = 2668712   size = 2292
+name = SARGH1   offset = 2671004   size = 2088
+name = SARGH2   offset = 2673092   size = 1972
+name = SARGH3   offset = 2675064   size = 2172
+name = SARGH4   offset = 2677236   size = 2000
+name = SARGH5   offset = 2679236   size = 1560
+name = SARGH6   offset = 2680796   size = 1696
+name = SARGH7   offset = 2682492   size = 2156
+name = SARGH8   offset = 2684648   size = 2108
+name = SARGI0   offset = 2686756   size = 2340
+name = SARGJ0   offset = 2689096   size = 2248
+name = SARGK0   offset = 2691344   size = 1900
+name = SARGL0   offset = 2693244   size = 1908
+name = SARGM0   offset = 2695152   size = 1836
+name = SARGN0   offset = 2696988   size = 1728
+name = TROOA1   offset = 2698716   size = 1632
+name = TROOA2A8   offset = 2700348   size = 1564
+name = TROOA3A7   offset = 2701912   size = 1144
+name = TROOA4A6   offset = 2703056   size = 1048
+name = TROOA5   offset = 2704104   size = 1208
+name = TROOB1   offset = 2705312   size = 1600
+name = TROOB2B8   offset = 2706912   size = 1420
+name = TROOB3B7   offset = 2708332   size = 1304
+name = TROOB4B6   offset = 2709636   size = 1228
+name = TROOB5   offset = 2710864   size = 1152
+name = TROOC1   offset = 2712016   size = 1612
+name = TROOC2C8   offset = 2713628   size = 1528
+name = TROOC3C7   offset = 2715156   size = 1148
+name = TROOC4C6   offset = 2716304   size = 1060
+name = TROOC5   offset = 2717364   size = 1212
+name = TROOD1   offset = 2718576   size = 1528
+name = TROOD2D8   offset = 2720104   size = 1652
+name = TROOD3D7   offset = 2721756   size = 1320
+name = TROOD4D6   offset = 2723076   size = 1012
+name = TROOD5   offset = 2724088   size = 1148
+name = TROOE1   offset = 2725236   size = 1680
+name = TROOE2E8   offset = 2726916   size = 1260
+name = TROOE3E7   offset = 2728176   size = 1284
+name = TROOE4E6   offset = 2729460   size = 1252
+name = TROOE5   offset = 2730712   size = 1176
+name = TROOF1   offset = 2731888   size = 1588
+name = TROOF2F8   offset = 2733476   size = 1476
+name = TROOF3F7   offset = 2734952   size = 1380
+name = TROOF4F6   offset = 2736332   size = 1180
+name = TROOF5   offset = 2737512   size = 1164
+name = TROOG1   offset = 2738676   size = 1328
+name = TROOG2G8   offset = 2740004   size = 1644
+name = TROOG3G7   offset = 2741648   size = 1700
+name = TROOG4G6   offset = 2743348   size = 1380
+name = TROOG5   offset = 2744728   size = 1112
+name = TROOH1   offset = 2745840   size = 1452
+name = TROOH2H8   offset = 2747292   size = 1144
+name = TROOH3H7   offset = 2748436   size = 1328
+name = TROOH4H6   offset = 2749764   size = 1336
+name = TROOH5   offset = 2751100   size = 1404
+name = TROOI0   offset = 2752504   size = 1592
+name = TROOJ0   offset = 2754096   size = 1504
+name = TROOK0   offset = 2755600   size = 1300
+name = TROOL0   offset = 2756900   size = 1292
+name = TROOM0   offset = 2758192   size = 1232
+name = TROON0   offset = 2759424   size = 2212
+name = TROOO0   offset = 2761636   size = 2548
+name = TROOP0   offset = 2764184   size = 2852
+name = TROOQ0   offset = 2767036   size = 2576
+name = TROOR0   offset = 2769612   size = 2008
+name = TROOS0   offset = 2771620   size = 1824
+name = TROOT0   offset = 2773444   size = 1456
+name = TROOU0   offset = 2774900   size = 1240
+name = BOSSA1   offset = 2776140   size = 2288
+name = BOSSA2A8   offset = 2778428   size = 2180
+name = BOSSA3A7   offset = 2780608   size = 2456
+name = BOSSA4A6   offset = 2783064   size = 2184
+name = BOSSA5   offset = 2785248   size = 2148
+name = BOSSB1   offset = 2787396   size = 2792
+name = BOSSB2B8   offset = 2790188   size = 2412
+name = BOSSB3B7   offset = 2792600   size = 2000
+name = BOSSB4B6   offset = 2794600   size = 2156
+name = BOSSB5   offset = 2796756   size = 2532
+name = BOSSC1   offset = 2799288   size = 2288
+name = BOSSC2C8   offset = 2801576   size = 2480
+name = BOSSC3C7   offset = 2804056   size = 2400
+name = BOSSC4C6   offset = 2806456   size = 2024
+name = BOSSC5   offset = 2808480   size = 2148
+name = BOSSD1   offset = 2810628   size = 2788
+name = BOSSD2D8   offset = 2813416   size = 2380
+name = BOSSD3D7   offset = 2815796   size = 2020
+name = BOSSD4D6   offset = 2817816   size = 2224
+name = BOSSD5   offset = 2820040   size = 2532
+name = BOSSE1   offset = 2822572   size = 2792
+name = BOSSE2   offset = 2825364   size = 2036
+name = BOSSE3   offset = 2827400   size = 2508
+name = BOSSE4   offset = 2829908   size = 2732
+name = BOSSE5   offset = 2832640   size = 2540
+name = BOSSE6   offset = 2835180   size = 2124
+name = BOSSE7   offset = 2837304   size = 2380
+name = BOSSE8   offset = 2839684   size = 2984
+name = BOSSF1   offset = 2842668   size = 3068
+name = BOSSF2   offset = 2845736   size = 2604
+name = BOSSF3   offset = 2848340   size = 2316
+name = BOSSF4   offset = 2850656   size = 2536
+name = BOSSF5   offset = 2853192   size = 2544
+name = BOSSF6   offset = 2855736   size = 2468
+name = BOSSF7   offset = 2858204   size = 2112
+name = BOSSF8   offset = 2860316   size = 2592
+name = BOSSG1   offset = 2862908   size = 2400
+name = BOSSG2   offset = 2865308   size = 2724
+name = BOSSG3   offset = 2868032   size = 2308
+name = BOSSG4   offset = 2870340   size = 2216
+name = BOSSG5   offset = 2872556   size = 2216
+name = BOSSG6   offset = 2874772   size = 2332
+name = BOSSG7   offset = 2877104   size = 2200
+name = BOSSG8   offset = 2879304   size = 2352
+name = BOSSH1   offset = 2881656   size = 2692
+name = BOSSH2   offset = 2884348   size = 2372
+name = BOSSH3   offset = 2886720   size = 2508
+name = BOSSH4   offset = 2889228   size = 2324
+name = BOSSH5   offset = 2891552   size = 2376
+name = BOSSH6   offset = 2893928   size = 2200
+name = BOSSH7   offset = 2896128   size = 2272
+name = BOSSH8   offset = 2898400   size = 2436
+name = BOSSI0   offset = 2900836   size = 2692
+name = BOSSJ0   offset = 2903528   size = 2576
+name = BOSSK0   offset = 2906104   size = 2504
+name = BOSSL0   offset = 2908608   size = 2032
+name = BOSSM0   offset = 2910640   size = 1760
+name = BOSSN0   offset = 2912400   size = 1784
+name = BOSSO0   offset = 2914184   size = 1784
+name = BAL7A1A5   offset = 2915968   size = 424
+name = BAL7A2A8   offset = 2916392   size = 576
+name = BAL7A3A7   offset = 2916968   size = 748
+name = BAL7A4A6   offset = 2917716   size = 508
+name = BAL7B1B5   offset = 2918224   size = 460
+name = BAL7B2B8   offset = 2918684   size = 568
+name = BAL7B3B7   offset = 2919252   size = 768
+name = BAL7B4B6   offset = 2920020   size = 520
+name = BAL7C0   offset = 2920540   size = 1020
+name = BAL7D0   offset = 2921560   size = 1308
+name = BAL7E0   offset = 2922868   size = 1776
+name = PLAYA1   offset = 2924644   size = 1420
+name = PLAYA2A8   offset = 2926064   size = 1332
+name = PLAYA3A7   offset = 2927396   size = 1424
+name = PLAYA4A6   offset = 2928820   size = 1388
+name = PLAYA5   offset = 2930208   size = 1220
+name = PLAYB1   offset = 2931428   size = 1452
+name = PLAYB2B8   offset = 2932880   size = 1288
+name = PLAYB3B7   offset = 2934168   size = 1300
+name = PLAYB4B6   offset = 2935468   size = 1388
+name = PLAYB5   offset = 2936856   size = 1312
+name = PLAYC1   offset = 2938168   size = 1432
+name = PLAYC2C8   offset = 2939600   size = 1436
+name = PLAYC3C7   offset = 2941036   size = 1304
+name = PLAYC4C6   offset = 2942340   size = 1352
+name = PLAYC5   offset = 2943692   size = 1344
+name = PLAYD1   offset = 2945036   size = 1440
+name = PLAYD2D8   offset = 2946476   size = 1400
+name = PLAYD3D7   offset = 2947876   size = 1228
+name = PLAYD4D6   offset = 2949104   size = 1300
+name = PLAYD5   offset = 2950404   size = 1348
+name = PLAYE1   offset = 2951752   size = 1276
+name = PLAYE2E8   offset = 2953028   size = 1368
+name = PLAYE3E7   offset = 2954396   size = 1600
+name = PLAYE4E6   offset = 2955996   size = 1420
+name = PLAYE5   offset = 2957416   size = 1172
+name = PLAYF1   offset = 2958588   size = 1280
+name = PLAYF2F8   offset = 2959868   size = 1412
+name = PLAYF3F7   offset = 2961280   size = 1648
+name = PLAYF4F6   offset = 2962928   size = 1496
+name = PLAYF5   offset = 2964424   size = 1120
+name = PLAYG1   offset = 2965544   size = 1492
+name = PLAYG2G8   offset = 2967036   size = 1316
+name = PLAYG3G7   offset = 2968352   size = 1484
+name = PLAYG4G6   offset = 2969836   size = 1496
+name = PLAYG5   offset = 2971332   size = 1396
+name = PLAYH0   offset = 2972728   size = 1636
+name = PLAYI0   offset = 2974364   size = 1428
+name = PLAYJ0   offset = 2975792   size = 1532
+name = PLAYK0   offset = 2977324   size = 1412
+name = PLAYL0   offset = 2978736   size = 1048
+name = PLAYM0   offset = 2979784   size = 1052
+name = PLAYN0   offset = 2980836   size = 1060
+name = PLAYO0   offset = 2981896   size = 1668
+name = PLAYP0   offset = 2983564   size = 2304
+name = PLAYQ0   offset = 2985868   size = 2432
+name = PLAYR0   offset = 2988300   size = 2304
+name = PLAYS0   offset = 2990604   size = 1968
+name = PLAYT0   offset = 2992572   size = 1748
+name = PLAYU0   offset = 2994320   size = 1604
+name = PLAYV0   offset = 2995924   size = 1384
+name = PLAYW0   offset = 2997308   size = 1364
+name = POSSA1   offset = 2998672   size = 1392
+name = POSSA2A8   offset = 3000064   size = 1316
+name = POSSA3A7   offset = 3001380   size = 1408
+name = POSSA4A6   offset = 3002788   size = 1352
+name = POSSA5   offset = 3004140   size = 1220
+name = POSSB1   offset = 3005360   size = 1416
+name = POSSB2B8   offset = 3006776   size = 1260
+name = POSSB3B7   offset = 3008036   size = 1284
+name = POSSB4B6   offset = 3009320   size = 1356
+name = POSSB5   offset = 3010676   size = 1300
+name = POSSC1   offset = 3011976   size = 1404
+name = POSSC2C8   offset = 3013380   size = 1412
+name = POSSC3C7   offset = 3014792   size = 1304
+name = POSSC4C6   offset = 3016096   size = 1336
+name = POSSC5   offset = 3017432   size = 1336
+name = POSSD1   offset = 3018768   size = 1428
+name = POSSD2D8   offset = 3020196   size = 1372
+name = POSSD3D7   offset = 3021568   size = 1208
+name = POSSD4D6   offset = 3022776   size = 1292
+name = POSSD5   offset = 3024068   size = 1312
+name = POSSE1   offset = 3025380   size = 1248
+name = POSSE2E8   offset = 3026628   size = 1356
+name = POSSE3E7   offset = 3027984   size = 1584
+name = POSSE4E6   offset = 3029568   size = 1420
+name = POSSE5   offset = 3030988   size = 1156
+name = POSSF1   offset = 3032144   size = 1248
+name = POSSF2F8   offset = 3033392   size = 1416
+name = POSSF3F7   offset = 3034808   size = 1644
+name = POSSF4F6   offset = 3036452   size = 1480
+name = POSSF5   offset = 3037932   size = 1112
+name = POSSG1   offset = 3039044   size = 1484
+name = POSSG2G8   offset = 3040528   size = 1288
+name = POSSG3G7   offset = 3041816   size = 1424
+name = POSSG4G6   offset = 3043240   size = 1472
+name = POSSG5   offset = 3044712   size = 1384
+name = POSSH0   offset = 3046096   size = 1604
+name = POSSI0   offset = 3047700   size = 1276
+name = POSSJ0   offset = 3048976   size = 1224
+name = POSSK0   offset = 3050200   size = 1128
+name = POSSL0   offset = 3051328   size = 988
+name = POSSM0   offset = 3052316   size = 1824
+name = POSSN0   offset = 3054140   size = 2408
+name = POSSO0   offset = 3056548   size = 2524
+name = POSSP0   offset = 3059072   size = 2368
+name = POSSQ0   offset = 3061440   size = 1992
+name = POSSR0   offset = 3063432   size = 1772
+name = POSSS0   offset = 3065204   size = 1640
+name = POSST0   offset = 3066844   size = 1464
+name = POSSU0   offset = 3068308   size = 1352
+name = SPOSA1   offset = 3069660   size = 1316
+name = SPOSA2A8   offset = 3070976   size = 1224
+name = SPOSA3A7   offset = 3072200   size = 1320
+name = SPOSA4A6   offset = 3073520   size = 1320
+name = SPOSA5   offset = 3074840   size = 1212
+name = SPOSB1   offset = 3076052   size = 1384
+name = SPOSB2B8   offset = 3077436   size = 1104
+name = SPOSB3B7   offset = 3078540   size = 1136
+name = SPOSB4B6   offset = 3079676   size = 1312
+name = SPOSB5   offset = 3080988   size = 1300
+name = SPOSC1   offset = 3082288   size = 1336
+name = SPOSC2C8   offset = 3083624   size = 1228
+name = SPOSC3C7   offset = 3084852   size = 1256
+name = SPOSC4C6   offset = 3086108   size = 1264
+name = SPOSC5   offset = 3087372   size = 1332
+name = SPOSD1   offset = 3088704   size = 1364
+name = SPOSD2D8   offset = 3090068   size = 1240
+name = SPOSD3D7   offset = 3091308   size = 1128
+name = SPOSD4D6   offset = 3092436   size = 1228
+name = SPOSD5   offset = 3093664   size = 1324
+name = SPOSE1   offset = 3094988   size = 1240
+name = SPOSE2E8   offset = 3096228   size = 1208
+name = SPOSE3E7   offset = 3097436   size = 1428
+name = SPOSE4E6   offset = 3098864   size = 1360
+name = SPOSE5   offset = 3100224   size = 1156
+name = SPOSF1   offset = 3101380   size = 1232
+name = SPOSF2F8   offset = 3102612   size = 1296
+name = SPOSF3F7   offset = 3103908   size = 1552
+name = SPOSF4F6   offset = 3105460   size = 1476
+name = SPOSF5   offset = 3106936   size = 1116
+name = SPOSG1   offset = 3108052   size = 1356
+name = SPOSG2G8   offset = 3109408   size = 1184
+name = SPOSG3G7   offset = 3110592   size = 1396
+name = SPOSG4G6   offset = 3111988   size = 1472
+name = SPOSG5   offset = 3113460   size = 1332
+name = SPOSH0   offset = 3114792   size = 1496
+name = SPOSI0   offset = 3116288   size = 1320
+name = SPOSJ0   offset = 3117608   size = 1244
+name = SPOSK0   offset = 3118852   size = 1144
+name = SPOSL0   offset = 3119996   size = 1056
+name = SPOSM0   offset = 3121052   size = 1724
+name = SPOSN0   offset = 3122776   size = 2376
+name = SPOSO0   offset = 3125152   size = 2524
+name = SPOSP0   offset = 3127676   size = 2368
+name = SPOSQ0   offset = 3130044   size = 1992
+name = SPOSR0   offset = 3132036   size = 1772
+name = SPOSS0   offset = 3133808   size = 1640
+name = SPOST0   offset = 3135448   size = 1464
+name = SPOSU0   offset = 3136912   size = 1352
+name = POL5A0   offset = 3138264   size = 836
+name = CANDA0   offset = 3139100   size = 244
+name = CBRAA0   offset = 3139344   size = 1100
+name = SHOTA0   offset = 3140444   size = 904
+name = MGUNA0   offset = 3141348   size = 1124
+name = LAUNA0   offset = 3142472   size = 1124
+name = CSAWA0   offset = 3143596   size = 1524
+name = CLIPA0   offset = 3145120   size = 188
+name = SHELA0   offset = 3145308   size = 216
+name = ROCKA0   offset = 3145524   size = 364
+name = STIMA0   offset = 3145888   size = 340
+name = MEDIA0   offset = 3146228   size = 780
+name = ARM1A0   offset = 3147008   size = 656
+name = ARM1B0   offset = 3147664   size = 656
+name = ARM2A0   offset = 3148320   size = 656
+name = ARM2B0   offset = 3148976   size = 656
+name = BAR1A0   offset = 3149632   size = 944
+name = BAR1B0   offset = 3150576   size = 944
+name = COLUA0   offset = 3151520   size = 832
+name = BPAKA0   offset = 3152352   size = 796
+name = BROKA0   offset = 3153148   size = 1616
+name = AMMOA0   offset = 3154764   size = 704
+name = SBOXA0   offset = 3155468   size = 664
+name = ELECA0   offset = 3156132   size = 4272
+name = BKEYA0   offset = 3160404   size = 332
+name = BKEYB0   offset = 3160736   size = 332
+name = YKEYA0   offset = 3161068   size = 332
+name = YKEYB0   offset = 3161400   size = 332
+name = RKEYA0   offset = 3161732   size = 332
+name = RKEYB0   offset = 3162064   size = 332
+name = SUITA0   offset = 3162396   size = 1112
+name = PVISA0   offset = 3163508   size = 604
+name = PVISB0   offset = 3164112   size = 604
+name = BEXPA0   offset = 3164716   size = 944
+name = BEXPB0   offset = 3165660   size = 924
+name = BEXPC0   offset = 3166584   size = 1584
+name = BEXPD0   offset = 3168168   size = 2696
+name = BEXPE0   offset = 3170864   size = 3420
+name = PMAPA0   offset = 3174284   size = 1004
+name = PMAPB0   offset = 3175288   size = 1004
+name = PMAPC0   offset = 3176292   size = 1004
+name = PMAPD0   offset = 3177296   size = 1004
+name = PINSA0   offset = 3178300   size = 724
+name = PINSB0   offset = 3179024   size = 724
+name = PINSC0   offset = 3179748   size = 724
+name = PINSD0   offset = 3180472   size = 724
+name = BON1A0   offset = 3181196   size = 292
+name = BON1B0   offset = 3181488   size = 292
+name = BON1C0   offset = 3181780   size = 292
+name = BON1D0   offset = 3182072   size = 292
+name = SOULA0   offset = 3182364   size = 724
+name = SOULB0   offset = 3183088   size = 724
+name = SOULC0   offset = 3183812   size = 724
+name = SOULD0   offset = 3184536   size = 724
+name = BON2A0   offset = 3185260   size = 356
+name = BON2B0   offset = 3185616   size = 356
+name = BON2C0   offset = 3185972   size = 356
+name = BON2D0   offset = 3186328   size = 356
+name = TREDA0   offset = 3186684   size = 1120
+name = TREDB0   offset = 3187804   size = 1060
+name = TREDC0   offset = 3188864   size = 1048
+name = TREDD0   offset = 3189912   size = 1088
+name = S_END   offset = 0   size = 0
+name = P_START   offset = 0   size = 0
+name = P1_START   offset = 0   size = 0
+name = WALL00_1   offset = 3191000   size = 10056
+name = WALL00_2   offset = 3201056   size = 2520
+name = WALL00_3   offset = 3203576   size = 2520
+name = WALL00_5   offset = 3206096   size = 2520
+name = WALL00_6   offset = 3208616   size = 2520
+name = WALL00_7   offset = 3211136   size = 2520
+name = WALL00_8   offset = 3213656   size = 2520
+name = WALL01_1   offset = 3216176   size = 1304
+name = WALL01_2   offset = 3217480   size = 1304
+name = WALL01_3   offset = 3218784   size = 1304
+name = WALL01_4   offset = 3220088   size = 1304
+name = WALL01_5   offset = 3221392   size = 1304
+name = WALL01_6   offset = 3222696   size = 1304
+name = WALL01_7   offset = 3224000   size = 1304
+name = WALL01_8   offset = 3225304   size = 1304
+name = WALL01_9   offset = 3226608   size = 1304
+name = WALL01_A   offset = 3227912   size = 1304
+name = WALL01_B   offset = 3229216   size = 1304
+name = WALL01_C   offset = 3230520   size = 1304
+name = WALL02_1   offset = 3231824   size = 5192
+name = WALL02_2   offset = 3237016   size = 5192
+name = WALL02_3   offset = 3242208   size = 1952
+name = WALL03_1   offset = 3244160   size = 5192
+name = WALL03_4   offset = 3249352   size = 5192
+name = WALL03_7   offset = 3254544   size = 4680
+name = WALL04_2   offset = 3259224   size = 1304
+name = WALL04_3   offset = 3260528   size = 1304
+name = WALL04_4   offset = 3261832   size = 1304
+name = WALL04_5   offset = 3263136   size = 1304
+name = WALL04_7   offset = 3264440   size = 1304
+name = WALL05_2   offset = 3265744   size = 4168
+name = W13_1   offset = 3269912   size = 5192
+name = W13_8   offset = 3275104   size = 1304
+name = W13_A   offset = 3276408   size = 1304
+name = W15_4   offset = 3277712   size = 5192
+name = W15_5   offset = 3282904   size = 5192
+name = W17_1   offset = 3288096   size = 28080
+name = WALL24_1   offset = 3316176   size = 36960
+name = W28_5   offset = 3353136   size = 4680
+name = W28_6   offset = 3357816   size = 4680
+name = W28_7   offset = 3362496   size = 4680
+name = W28_8   offset = 3367176   size = 4680
+name = W31_1   offset = 3371856   size = 4680
+name = W32_1   offset = 3376536   size = 4680
+name = W32_4   offset = 3381216   size = 4680
+name = W33_5   offset = 3385896   size = 4680
+name = W33_7   offset = 3390576   size = 4680
+name = W33_8   offset = 3395256   size = 1096
+name = W46_37   offset = 3396352   size = 208
+name = W46_38   offset = 3396560   size = 208
+name = W46_39   offset = 3396768   size = 208
+name = WALL57_1   offset = 3396976   size = 8776
+name = WALL57_2   offset = 3405752   size = 8776
+name = WALL57_3   offset = 3414528   size = 8776
+name = WALL57_4   offset = 3423304   size = 8776
+name = WALL62_1   offset = 3432080   size = 17544
+name = WALL62_2   offset = 3449624   size = 8776
+name = W94_1   offset = 3458400   size = 17544
+name = W111_2   offset = 3475944   size = 3984
+name = W111_3   offset = 3479928   size = 3984
+name = W112_1   offset = 3483912   size = 3940
+name = W112_2   offset = 3487852   size = 2100
+name = W112_3   offset = 3489952   size = 2220
+name = W113_1   offset = 3492172   size = 14312
+name = W113_2   offset = 3506484   size = 4276
+name = W113_3   offset = 3510760   size = 4212
+name = SW11_1   offset = 3514972   size = 4392
+name = SW11_2   offset = 3519364   size = 4392
+name = SW11_4   offset = 3523756   size = 4392
+name = SW11_5   offset = 3528148   size = 4392
+name = SW12_1   offset = 3532540   size = 4392
+name = SW12_2   offset = 3536932   size = 4392
+name = SW12_4   offset = 3541324   size = 4392
+name = SW12_5   offset = 3545716   size = 4392
+name = SW19_1   offset = 3550108   size = 8776
+name = SW19_2   offset = 3558884   size = 8776
+name = SW19_3   offset = 3567660   size = 8776
+name = SW19_4   offset = 3576436   size = 8776
+name = SW17_4   offset = 3585212   size = 4392
+name = SW17_5   offset = 3589604   size = 4392
+name = SW17_6   offset = 3593996   size = 4392
+name = SW18_7   offset = 3598388   size = 4392
+name = SW18_7   offset = 3602780   size = 4392
+name = T14_5   offset = 3607172   size = 1304
+name = AG128_1   offset = 3608476   size = 8776
+name = AG128_2   offset = 3617252   size = 8776
+name = AGB128_1   offset = 3626028   size = 1104
+name = WLA128_1   offset = 3627132   size = 8776
+name = SUPPORT2   offset = 3635908   size = 1952
+name = TOMW2_1   offset = 3637860   size = 10376
+name = TOMW2_2   offset = 3648236   size = 10376
+name = STEP03   offset = 3658612   size = 552
+name = STEP04   offset = 3659164   size = 552
+name = STEP05   offset = 3659716   size = 552
+name = STEP06   offset = 3660268   size = 552
+name = STEP07   offset = 3660820   size = 552
+name = STEP08   offset = 3661372   size = 552
+name = STEP09   offset = 3661924   size = 552
+name = STEP10   offset = 3662476   size = 552
+name = EXIT1   offset = 3663028   size = 808
+name = EXIT2   offset = 3663836   size = 208
+name = PLAT2_1   offset = 3664044   size = 17544
+name = TTALL1_2   offset = 3681588   size = 1104
+name = TP2_1   offset = 3682692   size = 17544
+name = TP2_2   offset = 3700236   size = 17544
+name = COMP01_1   offset = 3717780   size = 3648
+name = COMP01_5   offset = 3721428   size = 3648
+name = COMP01_6   offset = 3725076   size = 3648
+name = COMP1B_4   offset = 3728724   size = 3648
+name = COMP1C_6   offset = 3732372   size = 3648
+name = COMP02_1   offset = 3736020   size = 4168
+name = COMP02_2   offset = 3740188   size = 4168
+name = COMP02_3   offset = 3744356   size = 4168
+name = COMP02_4   offset = 3748524   size = 4168
+name = COMP02_5   offset = 3752692   size = 4168
+name = COMP02_6   offset = 3756860   size = 4168
+name = COMP02_7   offset = 3761028   size = 4168
+name = COMP02_8   offset = 3765196   size = 4168
+name = COMP03_1   offset = 3769364   size = 4680
+name = COMP03_4   offset = 3774044   size = 2344
+name = COMP03_5   offset = 3776388   size = 4680
+name = COMP03_6   offset = 3781068   size = 2344
+name = COMP03_7   offset = 3783412   size = 2344
+name = COMP03_8   offset = 3785756   size = 2344
+name = COMP03_9   offset = 3788100   size = 4680
+name = COMP04_1   offset = 3792780   size = 4680
+name = COMP04_2   offset = 3797460   size = 4680
+name = COMP04_5   offset = 3802140   size = 4680
+name = COMP04_6   offset = 3806820   size = 4680
+name = COMP04_7   offset = 3811500   size = 4680
+name = COMP04_8   offset = 3816180   size = 4680
+name = DOOR2_1   offset = 3820860   size = 10088
+name = DOOR2_4   offset = 3830948   size = 17544
+name = DOOR2_5   offset = 3848492   size = 5192
+name = DOOR3_4   offset = 3853684   size = 1952
+name = DOOR3_5   offset = 3855636   size = 1952
+name = DOOR3_6   offset = 3857588   size = 5192
+name = DOORTRAK   offset = 3862780   size = 1104
+name = DOOR9_1   offset = 3863884   size = 17544
+name = WARNA0   offset = 3881428   size = 552
+name = WARNB0   offset = 3881980   size = 552
+name = BLITA0   offset = 3882532   size = 144
+name = BLITB0   offset = 3882676   size = 144
+name = BLITC0   offset = 3882820   size = 144
+name = WLITA0   offset = 3882964   size = 144
+name = WLITB0   offset = 3883108   size = 144
+name = WLITC0   offset = 3883252   size = 144
+name = NUKEDGE   offset = 3883396   size = 2120
+name = FLAMP   offset = 3885516   size = 1716
+name = TSCRN2   offset = 3887232   size = 3476
+name = TSCRN3   offset = 3890708   size = 3476
+name = TSCRN4   offset = 3894184   size = 3476
+name = TSCRN5   offset = 3897660   size = 3476
+name = TSCRN6   offset = 3901136   size = 3476
+name = TSCRN8   offset = 3904612   size = 3476
+name = PS20A0   offset = 3908088   size = 1924
+name = SW1S0   offset = 3910012   size = 1320
+name = SW1S1   offset = 3911332   size = 1320
+name = SW2S0   offset = 3912652   size = 1320
+name = SW2S1   offset = 3913972   size = 1320
+name = SW3S0   offset = 3915292   size = 1320
+name = SW3S1   offset = 3916612   size = 1320
+name = SW4S0   offset = 3917932   size = 800
+name = SW4S1   offset = 3918732   size = 800
+name = SKY1   offset = 3919532   size = 35080
+name = P1_END   offset = 0   size = 0
+name = P_END   offset = 0   size = 0
+name = F_START   offset = 0   size = 0
+name = F1_START   offset = 0   size = 0
+name = FLOOR0_1   offset = 3954612   size = 4096
+name = FLOOR0_3   offset = 3958708   size = 4096
+name = FLOOR0_6   offset = 3962804   size = 4096
+name = FLOOR1_1   offset = 3966900   size = 4096
+name = FLOOR1_7   offset = 3970996   size = 4096
+name = FLOOR3_3   offset = 3975092   size = 4096
+name = FLOOR4_1   offset = 3979188   size = 4096
+name = FLOOR4_5   offset = 3983284   size = 4096
+name = FLOOR4_6   offset = 3987380   size = 4096
+name = FLOOR4_8   offset = 3991476   size = 4096
+name = FLOOR5_1   offset = 3995572   size = 4096
+name = FLOOR5_2   offset = 3999668   size = 4096
+name = FLOOR5_3   offset = 4003764   size = 4096
+name = FLOOR5_4   offset = 4007860   size = 4096
+name = STEP1   offset = 4011956   size = 4096
+name = STEP2   offset = 4016052   size = 4096
+name = FLOOR6_1   offset = 4020148   size = 4096
+name = FLOOR6_2   offset = 4024244   size = 4096
+name = TLITE6_1   offset = 4028340   size = 4096
+name = TLITE6_4   offset = 4032436   size = 4096
+name = TLITE6_5   offset = 4036532   size = 4096
+name = TLITE6_6   offset = 4040628   size = 4096
+name = FLOOR7_1   offset = 4044724   size = 4096
+name = FLOOR7_2   offset = 4048820   size = 4096
+name = MFLR8_1   offset = 4052916   size = 4096
+name = DEM1_1   offset = 4057012   size = 4096
+name = DEM1_2   offset = 4061108   size = 4096
+name = DEM1_3   offset = 4065204   size = 4096
+name = DEM1_4   offset = 4069300   size = 4096
+name = CEIL3_1   offset = 4073396   size = 4096
+name = CEIL3_2   offset = 4077492   size = 4096
+name = CEIL3_5   offset = 4081588   size = 4096
+name = CEIL4_2   offset = 4085684   size = 4096
+name = CEIL4_3   offset = 4089780   size = 4096
+name = CEIL5_1   offset = 4093876   size = 4096
+name = CEIL5_2   offset = 4097972   size = 4096
+name = FLAT1   offset = 4102068   size = 4096
+name = FLAT2   offset = 4106164   size = 4096
+name = FLAT5   offset = 4110260   size = 4096
+name = FLAT10   offset = 4114356   size = 4096
+name = FLAT14   offset = 4118452   size = 4096
+name = FLAT18   offset = 4122548   size = 4096
+name = FLAT20   offset = 4126644   size = 4096
+name = FLAT22   offset = 4130740   size = 4096
+name = FLAT23   offset = 4134836   size = 4096
+name = FLAT5_4   offset = 4138932   size = 4096
+name = FLAT5_5   offset = 4143028   size = 4096
+name = CONS1_1   offset = 4147124   size = 4096
+name = CONS1_5   offset = 4151220   size = 4096
+name = CONS1_7   offset = 4155316   size = 4096
+name = NUKAGE1   offset = 4159412   size = 4096
+name = NUKAGE2   offset = 4163508   size = 4096
+name = NUKAGE3   offset = 4167604   size = 4096
+name = F_SKY1   offset = 4171700   size = 4096
+name = F1_END   offset = 0   size = 0
+name = F_END   offset = 0   size = 0
+===========================LOADING VERTEX==========================
+xPos = 1088   yPos = -3680
+xPos = 1024   yPos = -3680
+xPos = 1024   yPos = -3648
+xPos = 1088   yPos = -3648
+xPos = 1152   yPos = -3648
+xPos = 960   yPos = -3648
+xPos = 1280   yPos = -3552
+xPos = 832   yPos = -3552
+xPos = 1344   yPos = -3552
+xPos = 704   yPos = -3552
+xPos = 896   yPos = -3392
+xPos = 928   yPos = -3392
+xPos = 928   yPos = -3360
+xPos = 896   yPos = -3360
+xPos = 1184   yPos = -3392
+xPos = 1216   yPos = -3392
+xPos = 1216   yPos = -3360
+xPos = 1184   yPos = -3360
+xPos = 896   yPos = -3072
+xPos = 896   yPos = -3104
+xPos = 928   yPos = -3104
+xPos = 928   yPos = -3072
+xPos = 1216   yPos = -3072
+xPos = 1184   yPos = -3072
+xPos = 1184   yPos = -3104
+xPos = 1216   yPos = -3104
+xPos = 1344   yPos = -3360
+xPos = 1344   yPos = -3264
+xPos = 1344   yPos = -3200
+xPos = 1344   yPos = -2880
+xPos = 1344   yPos = -3104
+xPos = 1376   yPos = -3200
+xPos = 1376   yPos = -3104
+xPos = 1376   yPos = -3360
+xPos = 1376   yPos = -3264
+xPos = 1376   yPos = -3648
+xPos = 1376   yPos = -2944
+xPos = 704   yPos = -2944
+xPos = 832   yPos = -2944
+xPos = 968   yPos = -2880
+xPos = 1216   yPos = -2880
+xPos = 1472   yPos = -2880
+xPos = 1856   yPos = -2880
+xPos = 1528   yPos = -3680
+xPos = 1672   yPos = -3744
+xPos = 704   yPos = -3360
+xPos = 704   yPos = -3104
+xPos = 512   yPos = -3328
+xPos = 512   yPos = -3304
+xPos = 512   yPos = -3160
+xPos = 512   yPos = -3136
+xPos = 680   yPos = -3104
+xPos = 680   yPos = -3360
+xPos = 496   yPos = -3160
+xPos = 496   yPos = -3304
+xPos = 496   yPos = -3328
+xPos = 448   yPos = -3456
+xPos = 128   yPos = -3456
+xPos = 128   yPos = -3008
+xPos = 448   yPos = -3008
+xPos = 496   yPos = -3136
+xPos = 128   yPos = -3264
+xPos = 160   yPos = -3264
+xPos = 192   yPos = -3264
+xPos = 224   yPos = -3264
+xPos = 256   yPos = -3264
+xPos = 288   yPos = -3264
+xPos = 320   yPos = -3264
+xPos = 320   yPos = -3200
+xPos = 288   yPos = -3200
+xPos = 256   yPos = -3200
+xPos = 224   yPos = -3200
+xPos = 192   yPos = -3200
+xPos = 160   yPos = -3200
+xPos = 128   yPos = -3200
+xPos = 64   yPos = -3072
+xPos = 64   yPos = -3392
+xPos = 48   yPos = -3392
+xPos = -64   yPos = -3328
+xPos = -64   yPos = -3136
+xPos = 48   yPos = -3072
+xPos = -256   yPos = -3328
+xPos = -320   yPos = -3296
+xPos = -320   yPos = -3168
+xPos = -256   yPos = -3136
+xPos = -128   yPos = -3120
+xPos = -128   yPos = -3136
+xPos = -256   yPos = -3120
+xPos = -256   yPos = -3344
+xPos = -128   yPos = -3328
+xPos = -128   yPos = -3344
+xPos = -336   yPos = -3296
+xPos = -336   yPos = -3168
+xPos = -336   yPos = -3120
+xPos = -336   yPos = -3344
+xPos = -96   yPos = -3344
+xPos = 64   yPos = -3520
+xPos = -96   yPos = -3120
+xPos = 64   yPos = -2944
+xPos = 64   yPos = -2816
+xPos = 64   yPos = -3648
+xPos = -640   yPos = -3648
+xPos = -768   yPos = -3520
+xPos = -768   yPos = -2944
+xPos = -640   yPos = -2816
+xPos = -640   yPos = -3520
+xPos = -640   yPos = -2944
+xPos = -88   yPos = -3136
+xPos = -88   yPos = -3328
+xPos = 256   yPos = -3136
+xPos = 320   yPos = -3136
+xPos = 320   yPos = -3072
+xPos = 256   yPos = -3072
+xPos = 256   yPos = -3392
+xPos = 320   yPos = -3392
+xPos = 320   yPos = -3328
+xPos = 256   yPos = -3328
+xPos = 1248   yPos = -2528
+xPos = 1384   yPos = -2592
+xPos = 1472   yPos = -2560
+xPos = 1472   yPos = -2432
+xPos = 1536   yPos = -2432
+xPos = 1536   yPos = -2560
+xPos = 1552   yPos = -2560
+xPos = 1552   yPos = -2432
+xPos = 1664   yPos = -2560
+xPos = 1664   yPos = -2432
+xPos = 2736   yPos = -3648
+xPos = 2488   yPos = -3744
+xPos = 2240   yPos = -3776
+xPos = 1984   yPos = -3776
+xPos = 1920   yPos = -2920
+xPos = 2240   yPos = -2920
+xPos = 1520   yPos = -3168
+xPos = 1672   yPos = -3104
+xPos = 1896   yPos = -3104
+xPos = 2040   yPos = -3144
+xPos = 2128   yPos = -3272
+xPos = 2064   yPos = -3408
+xPos = 1784   yPos = -3448
+xPos = 1544   yPos = -3384
+xPos = 2752   yPos = -2784
+xPos = 2624   yPos = -2784
+xPos = 2520   yPos = -2560
+xPos = 2752   yPos = -2560
+xPos = 2944   yPos = -2656
+xPos = 2880   yPos = -2912
+xPos = 2880   yPos = -2880
+xPos = 3048   yPos = -2880
+xPos = 3048   yPos = -2944
+xPos = 2752   yPos = -3048
+xPos = 2752   yPos = -2912
+xPos = 2752   yPos = -3584
+xPos = 2752   yPos = -3360
+xPos = 2736   yPos = -3360
+xPos = 3304   yPos = -3040
+xPos = 3136   yPos = -3072
+xPos = 3112   yPos = -3360
+xPos = 2944   yPos = -3536
+xPos = 2816   yPos = -3232
+xPos = 3280   yPos = -3320
+xPos = 2984   yPos = -3200
+xPos = 2976   yPos = -3072
+xPos = 3264   yPos = -3616
+xPos = 3072   yPos = -3648
+xPos = 2944   yPos = -3648
+xPos = 3072   yPos = -4000
+xPos = 2944   yPos = -3776
+xPos = 3104   yPos = -3552
+xPos = 3352   yPos = -3568
+xPos = 3472   yPos = -3432
+xPos = 3408   yPos = -3432
+xPos = 3312   yPos = -3496
+xPos = 2208   yPos = -3680
+xPos = 2176   yPos = -3680
+xPos = 2016   yPos = -3680
+xPos = 2048   yPos = -3680
+xPos = 2176   yPos = -3776
+xPos = 2176   yPos = -3808
+xPos = 2176   yPos = -3840
+xPos = 2048   yPos = -3808
+xPos = 2048   yPos = -3776
+xPos = 2048   yPos = -3840
+xPos = 2048   yPos = -3872
+xPos = 2048   yPos = -3904
+xPos = 2176   yPos = -3872
+xPos = 2176   yPos = -3904
+xPos = 2240   yPos = -4096
+xPos = 2112   yPos = -4032
+xPos = 2240   yPos = -3968
+xPos = 2368   yPos = -3968
+xPos = 2368   yPos = -4096
+xPos = 2880   yPos = -3776
+xPos = 2880   yPos = -3904
+xPos = 2848   yPos = -3776
+xPos = 2848   yPos = -3904
+xPos = 2816   yPos = -3776
+xPos = 2816   yPos = -3904
+xPos = 2784   yPos = -3776
+xPos = 2784   yPos = -3904
+xPos = 2752   yPos = -3776
+xPos = 2752   yPos = -3904
+xPos = 2688   yPos = -3776
+xPos = 2720   yPos = -3904
+xPos = 2632   yPos = -3792
+xPos = 2688   yPos = -3920
+xPos = 2912   yPos = -3776
+xPos = 2912   yPos = -3904
+xPos = 2944   yPos = -3904
+xPos = 2944   yPos = -4000
+xPos = 2240   yPos = -3648
+xPos = 1984   yPos = -3648
+xPos = 2672   yPos = -3920
+xPos = 2616   yPos = -3792
+xPos = 2176   yPos = -3920
+xPos = 2048   yPos = -3920
+xPos = 2752   yPos = -2800
+xPos = 2960   yPos = -2656
+xPos = 3400   yPos = -3152
+xPos = 3448   yPos = -3520
+xPos = 2272   yPos = -3008
+xPos = 2432   yPos = -3112
+xPos = 2736   yPos = -3112
+xPos = 2752   yPos = -3112
+xPos = 3200   yPos = -4128
+xPos = 3328   yPos = -4128
+xPos = 2688   yPos = -4128
+xPos = 2816   yPos = -4128
+xPos = 2856   yPos = -4160
+xPos = 2912   yPos = -4160
+xPos = 2912   yPos = -4128
+xPos = 3104   yPos = -4128
+xPos = 3104   yPos = -4160
+xPos = 3160   yPos = -4160
+xPos = 3104   yPos = -4352
+xPos = 3104   yPos = -4384
+xPos = 3160   yPos = -4384
+xPos = 3160   yPos = -4352
+xPos = 2856   yPos = -4352
+xPos = 2856   yPos = -4384
+xPos = 2912   yPos = -4384
+xPos = 2912   yPos = -4352
+xPos = 2888   yPos = -4160
+xPos = 3128   yPos = -4352
+xPos = 3128   yPos = -4160
+xPos = 2888   yPos = -4352
+xPos = 2888   yPos = -4320
+xPos = 2888   yPos = -4192
+xPos = 3128   yPos = -4320
+xPos = 3128   yPos = -4192
+xPos = 3328   yPos = -4544
+xPos = 3072   yPos = -4544
+xPos = 2944   yPos = -4544
+xPos = 2688   yPos = -4544
+xPos = 3072   yPos = -4608
+xPos = 2944   yPos = -4608
+xPos = 3040   yPos = -4608
+xPos = 2976   yPos = -4608
+xPos = 2976   yPos = -4632
+xPos = 3040   yPos = -4632
+xPos = 3040   yPos = -4648
+xPos = 3040   yPos = -4672
+xPos = 2976   yPos = -4672
+xPos = 2976   yPos = -4648
+xPos = 3104   yPos = -4672
+xPos = 2912   yPos = -4672
+xPos = 3104   yPos = -4864
+xPos = 2912   yPos = -4864
+xPos = 2912   yPos = -4800
+xPos = 2912   yPos = -4736
+xPos = 2944   yPos = -4016
+xPos = 3072   yPos = -4016
+xPos = 2944   yPos = -4032
+xPos = 3072   yPos = -4032
+xPos = 3024   yPos = -4592
+xPos = 2992   yPos = -4592
+xPos = 2992   yPos = -4600
+xPos = 3024   yPos = -4600
+xPos = 3024   yPos = -4840
+xPos = 2992   yPos = -4840
+xPos = 2992   yPos = -4848
+xPos = 3024   yPos = -4848
+xPos = -240   yPos = -3264
+xPos = -208   yPos = -3264
+xPos = -192   yPos = -3248
+xPos = -192   yPos = -3216
+xPos = -208   yPos = -3200
+xPos = -240   yPos = -3200
+xPos = -256   yPos = -3216
+xPos = -256   yPos = -3248
+xPos = 1664   yPos = -2368
+xPos = 1600   yPos = -2368
+xPos = 1600   yPos = -2112
+xPos = 1600   yPos = -2624
+xPos = 1664   yPos = -2624
+xPos = 2560   yPos = -2112
+xPos = 2560   yPos = -2496
+xPos = 2496   yPos = -2496
+xPos = 2176   yPos = -2752
+xPos = 2176   yPos = -2816
+xPos = 1600   yPos = -2048
+xPos = 1664   yPos = -2048
+xPos = 2496   yPos = -2048
+xPos = 2560   yPos = -2048
+xPos = 1664   yPos = -2112
+xPos = 2496   yPos = -2112
+xPos = 1664   yPos = -2816
+xPos = 1600   yPos = -2816
+xPos = 1600   yPos = -2752
+xPos = 1664   yPos = -2752
+xPos = 2496   yPos = -2688
+xPos = 2496   yPos = -2752
+xPos = 2520   yPos = -2688
+xPos = 2496   yPos = -2560
+xPos = 1984   yPos = -2304
+xPos = 1984   yPos = -2240
+xPos = 1792   yPos = -2240
+xPos = 1792   yPos = -2304
+xPos = 1664   yPos = -2600
+xPos = 1664   yPos = -2392
+xPos = 2496   yPos = -2520
+xPos = 2200   yPos = -2752
+xPos = 2112   yPos = -2592
+xPos = 2336   yPos = -2592
+xPos = 2336   yPos = -2272
+xPos = 2112   yPos = -2272
+xPos = 2112   yPos = -2304
+xPos = 2144   yPos = -2304
+xPos = 2176   yPos = -2304
+xPos = 2208   yPos = -2304
+xPos = 2304   yPos = -2304
+xPos = 2304   yPos = -2560
+xPos = 2208   yPos = -2560
+xPos = 2176   yPos = -2560
+xPos = 2144   yPos = -2560
+xPos = 2112   yPos = -2560
+xPos = 1984   yPos = -2624
+xPos = 1984   yPos = -2560
+xPos = 1792   yPos = -2560
+xPos = 1792   yPos = -2624
+xPos = 1992   yPos = -2552
+xPos = 1784   yPos = -2552
+xPos = 1784   yPos = -2632
+xPos = 1992   yPos = -2632
+xPos = 1784   yPos = -2312
+xPos = 1992   yPos = -2312
+xPos = 1992   yPos = -2232
+xPos = 1784   yPos = -2232
+xPos = 3520   yPos = -3904
+xPos = 3328   yPos = -3968
+xPos = 3200   yPos = -3968
+xPos = 3200   yPos = -3744
+xPos = 3328   yPos = -3744
+xPos = 3360   yPos = -3648
+xPos = 3472   yPos = -3520
+xPos = 3520   yPos = -3584
+xPos = 3352   yPos = -3592
+xPos = 3304   yPos = -3968
+xPos = 3304   yPos = -3744
+xPos = 2344   yPos = -4096
+xPos = 2264   yPos = -4096
+xPos = 2264   yPos = -3968
+xPos = 2344   yPos = -3968
+xPos = 2176   yPos = -3704
+xPos = 2048   yPos = -3704
+xPos = 3520   yPos = -3840
+xPos = 3680   yPos = -3904
+xPos = 3584   yPos = -3904
+xPos = 3744   yPos = -3808
+xPos = 3584   yPos = -3840
+xPos = 3616   yPos = -3776
+xPos = 3552   yPos = -3552
+xPos = 3552   yPos = -3392
+xPos = 3648   yPos = -3264
+xPos = 3680   yPos = -3552
+xPos = 3680   yPos = -3392
+xPos = 3808   yPos = -3264
+xPos = 3496   yPos = -3032
+xPos = 3584   yPos = -2880
+xPos = 3456   yPos = -3032
+xPos = 3360   yPos = -2880
+xPos = 3320   yPos = -3040
+xPos = 3416   yPos = -3152
+xPos = 3536   yPos = -3840
+xPos = 3536   yPos = -3904
+xPos = 1344   yPos = -2486
+xPos = 1376   yPos = -2959
+xPos = 1664   yPos = -2880
+xPos = 1992   yPos = -2560
+xPos = 1992   yPos = -2304
+xPos = 1992   yPos = -2752
+xPos = 2176   yPos = -2592
+xPos = 1992   yPos = -2592
+xPos = 1992   yPos = -2112
+xPos = 2176   yPos = -2112
+xPos = 2176   yPos = -2272
+xPos = 1992   yPos = -2272
+xPos = 1664   yPos = -2312
+xPos = 1664   yPos = -2552
+xPos = 1664   yPos = -2232
+xPos = 1984   yPos = -2312
+xPos = 1984   yPos = -2232
+xPos = 1784   yPos = -2240
+xPos = 1792   yPos = -2312
+xPos = 1784   yPos = -2752
+xPos = 1984   yPos = -2552
+xPos = 1984   yPos = -2632
+xPos = 1784   yPos = -2560
+xPos = 1792   yPos = -2632
+xPos = 2176   yPos = -2048
+xPos = 2176   yPos = -2920
+xPos = 2176   yPos = -3648
+xPos = 1573   yPos = -3648
+xPos = 2176   yPos = -4064
+xPos = 1984   yPos = -3680
+xPos = 256   yPos = -3456
+xPos = 160   yPos = -3456
+xPos = 160   yPos = -3008
+xPos = 256   yPos = -3008
+xPos = -768   yPos = -3496
+xPos = -256   yPos = -2874
+xPos = -128   yPos = -2851
+xPos = -640   yPos = -3296
+xPos = -640   yPos = -3168
+xPos = -640   yPos = -3120
+xPos = -128   yPos = -3613
+xPos = -256   yPos = -3589
+xPos = -336   yPos = -3575
+xPos = 472   yPos = -3392
+xPos = 320   yPos = -3008
+xPos = 2197   yPos = -3648
+xPos = 2435   yPos = -3920
+xPos = 2589   yPos = -3968
+xPos = 2336   yPos = -2112
+xPos = 2336   yPos = -2560
+xPos = 2336   yPos = -2752
+xPos = 2496   yPos = -2665
+xPos = 2944   yPos = -3669
+xPos = 3242   yPos = -3370
+xPos = 3353   yPos = -3601
+xPos = 3454   yPos = -3496
+xPos = 3512   yPos = -3574
+xPos = 3047   yPos = -3626
+xPos = 2752   yPos = -3296
+xPos = 3008   yPos = -2902
+xPos = 3215   yPos = -3404
+xPos = 2887   yPos = -3160
+xPos = 3345   yPos = -2939
+xPos = 3556   yPos = -3567
+xPos = 3680   yPos = -3546
+xPos = 3738   yPos = -3144
+xPos = 3672   yPos = -3032
+xPos = 3072   yPos = -3968
+xPos = 2944   yPos = -3968
+xPos = 2960   yPos = -2930
+xPos = 3104   yPos = -4544
+xPos = 2912   yPos = -4544
+xPos = 2856   yPos = -4544
+xPos = 3160   yPos = -4544
+xPos = 3072   yPos = -4600
+xPos = 2944   yPos = -4600
+xPos = 3024   yPos = -4544
+xPos = 2944   yPos = -4592
+xPos = 3104   yPos = -4840
+xPos = 2912   yPos = -4840
+xPos = 3024   yPos = -4864
+xPos = 2912   yPos = -4848
+===========================LOADING LINEDEF==========================
+start = 0  end = 1  flags = 1  Type = 0  Tag = 0  frontSd = 0  backSd = 65535
+start = 1  end = 2  flags = 1  Type = 0  Tag = 0  frontSd = 1  backSd = 65535
+start = 3  end = 0  flags = 1  Type = 0  Tag = 0  frontSd = 2  backSd = 65535
+start = 4  end = 3  flags = 1  Type = 0  Tag = 0  frontSd = 3  backSd = 65535
+start = 2  end = 5  flags = 1  Type = 0  Tag = 0  frontSd = 4  backSd = 65535
+start = 6  end = 4  flags = 1  Type = 0  Tag = 0  frontSd = 5  backSd = 65535
+start = 5  end = 7  flags = 1  Type = 0  Tag = 0  frontSd = 6  backSd = 65535
+start = 8  end = 6  flags = 1  Type = 0  Tag = 0  frontSd = 7  backSd = 65535
+start = 7  end = 9  flags = 1  Type = 0  Tag = 0  frontSd = 8  backSd = 65535
+start = 10  end = 11  flags = 1  Type = 0  Tag = 0  frontSd = 9  backSd = 65535
+start = 11  end = 12  flags = 1  Type = 0  Tag = 0  frontSd = 10  backSd = 65535
+start = 12  end = 13  flags = 1  Type = 0  Tag = 0  frontSd = 11  backSd = 65535
+start = 13  end = 10  flags = 1  Type = 0  Tag = 0  frontSd = 12  backSd = 65535
+start = 14  end = 15  flags = 1  Type = 0  Tag = 0  frontSd = 13  backSd = 65535
+start = 15  end = 16  flags = 1  Type = 0  Tag = 0  frontSd = 14  backSd = 65535
+start = 16  end = 17  flags = 1  Type = 0  Tag = 0  frontSd = 15  backSd = 65535
+start = 17  end = 14  flags = 1  Type = 0  Tag = 0  frontSd = 16  backSd = 65535
+start = 18  end = 19  flags = 1  Type = 0  Tag = 0  frontSd = 17  backSd = 65535
+start = 19  end = 20  flags = 1  Type = 0  Tag = 0  frontSd = 18  backSd = 65535
+start = 20  end = 21  flags = 1  Type = 0  Tag = 0  frontSd = 19  backSd = 65535
+start = 21  end = 18  flags = 1  Type = 0  Tag = 0  frontSd = 20  backSd = 65535
+start = 22  end = 23  flags = 1  Type = 0  Tag = 0  frontSd = 21  backSd = 65535
+start = 23  end = 24  flags = 1  Type = 0  Tag = 0  frontSd = 22  backSd = 65535
+start = 24  end = 25  flags = 1  Type = 0  Tag = 0  frontSd = 23  backSd = 65535
+start = 25  end = 22  flags = 1  Type = 0  Tag = 0  frontSd = 24  backSd = 65535
+start = 26  end = 8  flags = 1  Type = 0  Tag = 0  frontSd = 25  backSd = 65535
+start = 27  end = 26  flags = 29  Type = 0  Tag = 0  frontSd = 26  backSd = 27
+start = 28  end = 27  flags = 1  Type = 0  Tag = 0  frontSd = 28  backSd = 65535
+start = 29  end = 30  flags = 1  Type = 0  Tag = 0  frontSd = 29  backSd = 65535
+start = 30  end = 28  flags = 29  Type = 0  Tag = 0  frontSd = 30  backSd = 31
+start = 31  end = 32  flags = 28  Type = 0  Tag = 0  frontSd = 32  backSd = 33
+start = 33  end = 34  flags = 28  Type = 0  Tag = 0  frontSd = 34  backSd = 35
+start = 27  end = 34  flags = 1  Type = 0  Tag = 0  frontSd = 36  backSd = 65535
+start = 33  end = 26  flags = 1  Type = 0  Tag = 0  frontSd = 37  backSd = 65535
+start = 31  end = 28  flags = 1  Type = 0  Tag = 0  frontSd = 38  backSd = 65535
+start = 30  end = 32  flags = 1  Type = 0  Tag = 0  frontSd = 39  backSd = 65535
+start = 34  end = 31  flags = 1  Type = 0  Tag = 0  frontSd = 40  backSd = 65535
+start = 35  end = 33  flags = 1  Type = 0  Tag = 0  frontSd = 41  backSd = 65535
+start = 32  end = 36  flags = 1  Type = 0  Tag = 0  frontSd = 42  backSd = 65535
+start = 14  end = 11  flags = 12  Type = 0  Tag = 0  frontSd = 43  backSd = 44
+start = 26  end = 15  flags = 12  Type = 0  Tag = 0  frontSd = 45  backSd = 46
+start = 22  end = 30  flags = 12  Type = 0  Tag = 0  frontSd = 47  backSd = 48
+start = 37  end = 38  flags = 1  Type = 0  Tag = 0  frontSd = 49  backSd = 65535
+start = 38  end = 39  flags = 1  Type = 0  Tag = 0  frontSd = 50  backSd = 65535
+start = 39  end = 40  flags = 1  Type = 0  Tag = 0  frontSd = 51  backSd = 65535
+start = 36  end = 41  flags = 1  Type = 0  Tag = 0  frontSd = 52  backSd = 65535
+start = 41  end = 42  flags = 1  Type = 0  Tag = 0  frontSd = 53  backSd = 65535
+start = 43  end = 35  flags = 1  Type = 0  Tag = 0  frontSd = 54  backSd = 65535
+start = 44  end = 43  flags = 1  Type = 0  Tag = 0  frontSd = 55  backSd = 65535
+start = 3  end = 2  flags = 28  Type = 0  Tag = 0  frontSd = 56  backSd = 57
+start = 20  end = 24  flags = 12  Type = 0  Tag = 0  frontSd = 58  backSd = 59
+start = 17  end = 12  flags = 12  Type = 0  Tag = 0  frontSd = 60  backSd = 61
+start = 12  end = 20  flags = 12  Type = 0  Tag = 0  frontSd = 62  backSd = 63
+start = 13  end = 19  flags = 12  Type = 0  Tag = 0  frontSd = 64  backSd = 65
+start = 21  end = 23  flags = 12  Type = 0  Tag = 0  frontSd = 66  backSd = 67
+start = 9  end = 45  flags = 1  Type = 0  Tag = 0  frontSd = 68  backSd = 65535
+start = 46  end = 37  flags = 1  Type = 0  Tag = 0  frontSd = 69  backSd = 65535
+start = 46  end = 45  flags = 12  Type = 0  Tag = 0  frontSd = 70  backSd = 71
+start = 47  end = 48  flags = 1  Type = 0  Tag = 0  frontSd = 72  backSd = 65535
+start = 49  end = 50  flags = 1  Type = 0  Tag = 0  frontSd = 73  backSd = 65535
+start = 50  end = 51  flags = 1  Type = 0  Tag = 0  frontSd = 74  backSd = 65535
+start = 51  end = 46  flags = 1  Type = 0  Tag = 0  frontSd = 75  backSd = 65535
+start = 45  end = 52  flags = 1  Type = 0  Tag = 0  frontSd = 76  backSd = 65535
+start = 52  end = 47  flags = 1  Type = 0  Tag = 0  frontSd = 77  backSd = 65535
+start = 53  end = 54  flags = 4  Type = 0  Tag = 0  frontSd = 78  backSd = 79
+start = 48  end = 54  flags = 17  Type = 0  Tag = 0  frontSd = 80  backSd = 65535
+start = 53  end = 49  flags = 17  Type = 0  Tag = 0  frontSd = 81  backSd = 65535
+start = 54  end = 55  flags = 1  Type = 0  Tag = 0  frontSd = 82  backSd = 65535
+start = 55  end = 56  flags = 1  Type = 0  Tag = 0  frontSd = 83  backSd = 65535
+start = 56  end = 57  flags = 1  Type = 0  Tag = 0  frontSd = 84  backSd = 65535
+start = 58  end = 59  flags = 1  Type = 0  Tag = 0  frontSd = 85  backSd = 65535
+start = 60  end = 53  flags = 1  Type = 0  Tag = 0  frontSd = 86  backSd = 65535
+start = 59  end = 60  flags = 1  Type = 0  Tag = 0  frontSd = 87  backSd = 65535
+start = 61  end = 62  flags = 20  Type = 0  Tag = 0  frontSd = 88  backSd = 89
+start = 62  end = 63  flags = 20  Type = 0  Tag = 0  frontSd = 90  backSd = 91
+start = 63  end = 64  flags = 20  Type = 0  Tag = 0  frontSd = 92  backSd = 93
+start = 64  end = 65  flags = 20  Type = 0  Tag = 0  frontSd = 94  backSd = 95
+start = 65  end = 66  flags = 20  Type = 0  Tag = 0  frontSd = 96  backSd = 97
+start = 66  end = 67  flags = 20  Type = 0  Tag = 0  frontSd = 98  backSd = 99
+start = 67  end = 68  flags = 4  Type = 0  Tag = 0  frontSd = 100  backSd = 101
+start = 68  end = 69  flags = 20  Type = 0  Tag = 0  frontSd = 102  backSd = 103
+start = 69  end = 70  flags = 20  Type = 0  Tag = 0  frontSd = 104  backSd = 105
+start = 70  end = 71  flags = 20  Type = 0  Tag = 0  frontSd = 106  backSd = 107
+start = 71  end = 72  flags = 20  Type = 0  Tag = 0  frontSd = 108  backSd = 109
+start = 72  end = 73  flags = 20  Type = 0  Tag = 0  frontSd = 110  backSd = 111
+start = 73  end = 74  flags = 20  Type = 0  Tag = 0  frontSd = 112  backSd = 113
+start = 62  end = 73  flags = 4  Type = 0  Tag = 0  frontSd = 114  backSd = 115
+start = 63  end = 72  flags = 4  Type = 0  Tag = 0  frontSd = 116  backSd = 117
+start = 64  end = 71  flags = 4  Type = 0  Tag = 0  frontSd = 118  backSd = 119
+start = 65  end = 70  flags = 4  Type = 0  Tag = 0  frontSd = 120  backSd = 121
+start = 66  end = 69  flags = 4  Type = 0  Tag = 0  frontSd = 122  backSd = 123
+start = 61  end = 74  flags = 28  Type = 0  Tag = 0  frontSd = 124  backSd = 125
+start = 74  end = 75  flags = 28  Type = 0  Tag = 0  frontSd = 126  backSd = 127
+start = 75  end = 58  flags = 1  Type = 0  Tag = 0  frontSd = 128  backSd = 65535
+start = 57  end = 76  flags = 1  Type = 0  Tag = 0  frontSd = 129  backSd = 65535
+start = 76  end = 61  flags = 28  Type = 0  Tag = 0  frontSd = 130  backSd = 131
+start = 76  end = 77  flags = 1  Type = 0  Tag = 0  frontSd = 132  backSd = 65535
+start = 77  end = 78  flags = 1  Type = 0  Tag = 0  frontSd = 133  backSd = 65535
+start = 79  end = 80  flags = 1  Type = 0  Tag = 0  frontSd = 134  backSd = 65535
+start = 80  end = 75  flags = 1  Type = 0  Tag = 0  frontSd = 135  backSd = 65535
+start = 81  end = 82  flags = 1  Type = 0  Tag = 0  frontSd = 136  backSd = 65535
+start = 83  end = 84  flags = 1  Type = 0  Tag = 0  frontSd = 137  backSd = 65535
+start = 85  end = 86  flags = 1  Type = 0  Tag = 0  frontSd = 138  backSd = 65535
+start = 84  end = 87  flags = 1  Type = 0  Tag = 0  frontSd = 139  backSd = 65535
+start = 88  end = 81  flags = 1  Type = 0  Tag = 0  frontSd = 140  backSd = 65535
+start = 89  end = 90  flags = 1  Type = 0  Tag = 0  frontSd = 141  backSd = 65535
+start = 82  end = 91  flags = 1  Type = 0  Tag = 0  frontSd = 142  backSd = 65535
+start = 92  end = 83  flags = 1  Type = 0  Tag = 0  frontSd = 143  backSd = 65535
+start = 87  end = 93  flags = 1  Type = 0  Tag = 0  frontSd = 144  backSd = 65535
+start = 93  end = 92  flags = 1  Type = 0  Tag = 0  frontSd = 145  backSd = 65535
+start = 91  end = 94  flags = 1  Type = 0  Tag = 0  frontSd = 146  backSd = 65535
+start = 94  end = 88  flags = 1  Type = 0  Tag = 0  frontSd = 147  backSd = 65535
+start = 90  end = 95  flags = 1  Type = 0  Tag = 0  frontSd = 148  backSd = 65535
+start = 95  end = 96  flags = 1  Type = 0  Tag = 0  frontSd = 149  backSd = 65535
+start = 97  end = 85  flags = 1  Type = 0  Tag = 0  frontSd = 150  backSd = 65535
+start = 98  end = 97  flags = 1  Type = 0  Tag = 0  frontSd = 151  backSd = 65535
+start = 79  end = 78  flags = 28  Type = 0  Tag = 0  frontSd = 152  backSd = 153
+start = 89  end = 81  flags = 29  Type = 0  Tag = 0  frontSd = 154  backSd = 155
+start = 88  end = 90  flags = 28  Type = 0  Tag = 0  frontSd = 156  backSd = 157
+start = 84  end = 86  flags = 29  Type = 0  Tag = 0  frontSd = 158  backSd = 159
+start = 85  end = 87  flags = 28  Type = 0  Tag = 0  frontSd = 160  backSd = 161
+start = 82  end = 83  flags = 29  Type = 0  Tag = 0  frontSd = 162  backSd = 163
+start = 92  end = 91  flags = 28  Type = 0  Tag = 0  frontSd = 164  backSd = 165
+start = 99  end = 98  flags = 1  Type = 0  Tag = 0  frontSd = 166  backSd = 65535
+start = 96  end = 100  flags = 1  Type = 0  Tag = 0  frontSd = 167  backSd = 65535
+start = 100  end = 101  flags = 1  Type = 0  Tag = 0  frontSd = 168  backSd = 65535
+start = 101  end = 102  flags = 1  Type = 0  Tag = 0  frontSd = 169  backSd = 65535
+start = 102  end = 103  flags = 1  Type = 0  Tag = 0  frontSd = 170  backSd = 65535
+start = 103  end = 104  flags = 1  Type = 0  Tag = 0  frontSd = 171  backSd = 65535
+start = 104  end = 99  flags = 1  Type = 0  Tag = 0  frontSd = 172  backSd = 65535
+start = 100  end = 105  flags = 156  Type = 0  Tag = 0  frontSd = 173  backSd = 174
+start = 105  end = 106  flags = 156  Type = 0  Tag = 0  frontSd = 175  backSd = 176
+start = 106  end = 99  flags = 156  Type = 0  Tag = 0  frontSd = 177  backSd = 178
+start = 86  end = 107  flags = 1  Type = 0  Tag = 0  frontSd = 179  backSd = 65535
+start = 107  end = 79  flags = 1  Type = 0  Tag = 0  frontSd = 180  backSd = 65535
+start = 78  end = 108  flags = 1  Type = 0  Tag = 0  frontSd = 181  backSd = 65535
+start = 108  end = 89  flags = 1  Type = 0  Tag = 0  frontSd = 182  backSd = 65535
+start = 109  end = 110  flags = 28  Type = 0  Tag = 0  frontSd = 183  backSd = 184
+start = 110  end = 111  flags = 28  Type = 0  Tag = 0  frontSd = 185  backSd = 186
+start = 111  end = 112  flags = 28  Type = 0  Tag = 0  frontSd = 187  backSd = 188
+start = 112  end = 109  flags = 28  Type = 0  Tag = 0  frontSd = 189  backSd = 190
+start = 113  end = 114  flags = 28  Type = 0  Tag = 0  frontSd = 191  backSd = 192
+start = 114  end = 115  flags = 28  Type = 0  Tag = 0  frontSd = 193  backSd = 194
+start = 115  end = 116  flags = 28  Type = 0  Tag = 0  frontSd = 195  backSd = 196
+start = 116  end = 113  flags = 28  Type = 0  Tag = 0  frontSd = 197  backSd = 198
+start = 40  end = 117  flags = 1  Type = 0  Tag = 0  frontSd = 199  backSd = 65535
+start = 118  end = 29  flags = 1  Type = 0  Tag = 0  frontSd = 200  backSd = 65535
+start = 119  end = 118  flags = 1  Type = 0  Tag = 0  frontSd = 201  backSd = 65535
+start = 117  end = 120  flags = 1  Type = 0  Tag = 0  frontSd = 202  backSd = 65535
+start = 29  end = 40  flags = 12  Type = 0  Tag = 0  frontSd = 203  backSd = 204
+start = 120  end = 119  flags = 12  Type = 0  Tag = 0  frontSd = 205  backSd = 206
+start = 121  end = 122  flags = 4  Type = 1  Tag = 0  frontSd = 207  backSd = 208
+start = 123  end = 124  flags = 4  Type = 1  Tag = 0  frontSd = 209  backSd = 210
+start = 122  end = 119  flags = 1  Type = 0  Tag = 0  frontSd = 211  backSd = 65535
+start = 120  end = 121  flags = 1  Type = 0  Tag = 0  frontSd = 212  backSd = 65535
+start = 121  end = 124  flags = 17  Type = 0  Tag = 0  frontSd = 213  backSd = 65535
+start = 123  end = 122  flags = 17  Type = 0  Tag = 0  frontSd = 214  backSd = 65535
+start = 125  end = 123  flags = 1  Type = 0  Tag = 0  frontSd = 215  backSd = 65535
+start = 124  end = 126  flags = 1  Type = 0  Tag = 0  frontSd = 216  backSd = 65535
+start = 127  end = 128  flags = 1  Type = 0  Tag = 0  frontSd = 217  backSd = 65535
+start = 128  end = 129  flags = 1  Type = 0  Tag = 0  frontSd = 218  backSd = 65535
+start = 130  end = 44  flags = 1  Type = 0  Tag = 0  frontSd = 219  backSd = 65535
+start = 42  end = 131  flags = 1  Type = 0  Tag = 0  frontSd = 220  backSd = 65535
+start = 131  end = 132  flags = 1  Type = 0  Tag = 0  frontSd = 221  backSd = 65535
+start = 133  end = 134  flags = 28  Type = 0  Tag = 0  frontSd = 222  backSd = 223
+start = 134  end = 135  flags = 28  Type = 0  Tag = 0  frontSd = 224  backSd = 225
+start = 135  end = 136  flags = 28  Type = 0  Tag = 0  frontSd = 226  backSd = 227
+start = 136  end = 137  flags = 28  Type = 0  Tag = 0  frontSd = 228  backSd = 229
+start = 137  end = 138  flags = 28  Type = 0  Tag = 0  frontSd = 230  backSd = 231
+start = 138  end = 139  flags = 28  Type = 0  Tag = 0  frontSd = 232  backSd = 233
+start = 139  end = 140  flags = 28  Type = 0  Tag = 0  frontSd = 234  backSd = 235
+start = 140  end = 133  flags = 28  Type = 0  Tag = 0  frontSd = 236  backSd = 237
+start = 141  end = 142  flags = 1  Type = 0  Tag = 0  frontSd = 238  backSd = 65535
+start = 143  end = 144  flags = 1  Type = 0  Tag = 0  frontSd = 239  backSd = 65535
+start = 144  end = 145  flags = 1  Type = 0  Tag = 0  frontSd = 240  backSd = 65535
+start = 146  end = 147  flags = 1  Type = 0  Tag = 0  frontSd = 241  backSd = 65535
+start = 148  end = 149  flags = 1  Type = 0  Tag = 0  frontSd = 242  backSd = 65535
+start = 150  end = 151  flags = 1  Type = 0  Tag = 0  frontSd = 243  backSd = 65535
+start = 152  end = 153  flags = 1  Type = 0  Tag = 0  frontSd = 244  backSd = 65535
+start = 154  end = 127  flags = 1  Type = 0  Tag = 0  frontSd = 245  backSd = 65535
+start = 153  end = 154  flags = 1  Type = 0  Tag = 0  frontSd = 246  backSd = 65535
+start = 149  end = 155  flags = 1  Type = 0  Tag = 0  frontSd = 247  backSd = 65535
+start = 156  end = 155  flags = 6  Type = 0  Tag = 0  frontSd = 248  backSd = 249
+start = 157  end = 158  flags = 6  Type = 0  Tag = 0  frontSd = 250  backSd = 251
+start = 159  end = 157  flags = 6  Type = 0  Tag = 0  frontSd = 252  backSd = 253
+start = 160  end = 161  flags = 6  Type = 0  Tag = 0  frontSd = 254  backSd = 255
+start = 162  end = 159  flags = 6  Type = 0  Tag = 0  frontSd = 256  backSd = 257
+start = 161  end = 156  flags = 6  Type = 0  Tag = 0  frontSd = 258  backSd = 259
+start = 163  end = 164  flags = 1  Type = 0  Tag = 0  frontSd = 260  backSd = 65535
+start = 165  end = 152  flags = 1  Type = 0  Tag = 0  frontSd = 261  backSd = 65535
+start = 164  end = 166  flags = 1  Type = 0  Tag = 0  frontSd = 262  backSd = 65535
+start = 167  end = 165  flags = 1  Type = 0  Tag = 0  frontSd = 263  backSd = 65535
+start = 141  end = 145  flags = 4  Type = 0  Tag = 0  frontSd = 264  backSd = 265
+start = 153  end = 158  flags = 132  Type = 0  Tag = 0  frontSd = 266  backSd = 267
+start = 158  end = 164  flags = 132  Type = 0  Tag = 0  frontSd = 268  backSd = 269
+start = 150  end = 148  flags = 132  Type = 88  Tag = 2  frontSd = 270  backSd = 271
+start = 158  end = 152  flags = 6  Type = 0  Tag = 0  frontSd = 272  backSd = 273
+start = 168  end = 160  flags = 6  Type = 0  Tag = 0  frontSd = 274  backSd = 275
+start = 163  end = 168  flags = 4  Type = 0  Tag = 0  frontSd = 276  backSd = 277
+start = 169  end = 163  flags = 1  Type = 0  Tag = 0  frontSd = 278  backSd = 65535
+start = 170  end = 171  flags = 4  Type = 0  Tag = 0  frontSd = 279  backSd = 280
+start = 171  end = 172  flags = 4  Type = 0  Tag = 0  frontSd = 281  backSd = 282
+start = 172  end = 169  flags = 4  Type = 0  Tag = 0  frontSd = 283  backSd = 284
+start = 129  end = 173  flags = 1  Type = 0  Tag = 0  frontSd = 285  backSd = 65535
+start = 173  end = 174  flags = 1  Type = 0  Tag = 0  frontSd = 286  backSd = 65535
+start = 175  end = 130  flags = 1  Type = 0  Tag = 0  frontSd = 287  backSd = 65535
+start = 176  end = 175  flags = 1  Type = 0  Tag = 0  frontSd = 288  backSd = 65535
+start = 177  end = 178  flags = 1  Type = 0  Tag = 0  frontSd = 289  backSd = 65535
+start = 178  end = 179  flags = 1  Type = 0  Tag = 0  frontSd = 290  backSd = 65535
+start = 180  end = 181  flags = 1  Type = 0  Tag = 0  frontSd = 291  backSd = 65535
+start = 182  end = 180  flags = 1  Type = 0  Tag = 0  frontSd = 292  backSd = 65535
+start = 183  end = 182  flags = 1  Type = 0  Tag = 0  frontSd = 293  backSd = 65535
+start = 184  end = 183  flags = 1  Type = 0  Tag = 0  frontSd = 294  backSd = 65535
+start = 179  end = 185  flags = 1  Type = 0  Tag = 0  frontSd = 295  backSd = 65535
+start = 185  end = 186  flags = 1  Type = 0  Tag = 0  frontSd = 296  backSd = 65535
+start = 187  end = 188  flags = 1  Type = 0  Tag = 0  frontSd = 297  backSd = 65535
+start = 174  end = 176  flags = 12  Type = 0  Tag = 0  frontSd = 298  backSd = 299
+start = 181  end = 177  flags = 12  Type = 0  Tag = 0  frontSd = 300  backSd = 301
+start = 180  end = 178  flags = 12  Type = 0  Tag = 0  frontSd = 302  backSd = 303
+start = 182  end = 179  flags = 12  Type = 0  Tag = 0  frontSd = 304  backSd = 305
+start = 183  end = 185  flags = 12  Type = 0  Tag = 0  frontSd = 306  backSd = 307
+start = 184  end = 186  flags = 12  Type = 0  Tag = 0  frontSd = 308  backSd = 309
+start = 187  end = 189  flags = 12  Type = 0  Tag = 0  frontSd = 310  backSd = 311
+start = 190  end = 191  flags = 12  Type = 0  Tag = 0  frontSd = 312  backSd = 313
+start = 192  end = 193  flags = 12  Type = 0  Tag = 0  frontSd = 314  backSd = 315
+start = 194  end = 195  flags = 12  Type = 0  Tag = 0  frontSd = 316  backSd = 317
+start = 196  end = 197  flags = 12  Type = 0  Tag = 0  frontSd = 318  backSd = 319
+start = 198  end = 199  flags = 12  Type = 0  Tag = 0  frontSd = 320  backSd = 321
+start = 200  end = 201  flags = 12  Type = 0  Tag = 0  frontSd = 322  backSd = 323
+start = 202  end = 203  flags = 12  Type = 0  Tag = 0  frontSd = 324  backSd = 325
+start = 204  end = 205  flags = 14  Type = 0  Tag = 0  frontSd = 326  backSd = 327
+start = 204  end = 202  flags = 1  Type = 0  Tag = 0  frontSd = 328  backSd = 65535
+start = 203  end = 205  flags = 1  Type = 0  Tag = 0  frontSd = 329  backSd = 65535
+start = 202  end = 200  flags = 1  Type = 0  Tag = 0  frontSd = 330  backSd = 65535
+start = 200  end = 198  flags = 1  Type = 0  Tag = 0  frontSd = 331  backSd = 65535
+start = 198  end = 196  flags = 1  Type = 0  Tag = 0  frontSd = 332  backSd = 65535
+start = 196  end = 194  flags = 1  Type = 0  Tag = 0  frontSd = 333  backSd = 65535
+start = 194  end = 192  flags = 1  Type = 0  Tag = 0  frontSd = 334  backSd = 65535
+start = 193  end = 195  flags = 1  Type = 0  Tag = 0  frontSd = 335  backSd = 65535
+start = 195  end = 197  flags = 1  Type = 0  Tag = 0  frontSd = 336  backSd = 65535
+start = 197  end = 199  flags = 1  Type = 0  Tag = 0  frontSd = 337  backSd = 65535
+start = 199  end = 201  flags = 1  Type = 0  Tag = 0  frontSd = 338  backSd = 65535
+start = 201  end = 203  flags = 1  Type = 0  Tag = 0  frontSd = 339  backSd = 65535
+start = 192  end = 206  flags = 1  Type = 0  Tag = 0  frontSd = 340  backSd = 65535
+start = 207  end = 193  flags = 1  Type = 0  Tag = 0  frontSd = 341  backSd = 65535
+start = 208  end = 207  flags = 17  Type = 0  Tag = 0  frontSd = 342  backSd = 65535
+start = 206  end = 167  flags = 17  Type = 0  Tag = 0  frontSd = 343  backSd = 65535
+start = 208  end = 167  flags = 36  Type = 1  Tag = 0  frontSd = 344  backSd = 345
+start = 206  end = 207  flags = 4  Type = 1  Tag = 0  frontSd = 346  backSd = 347
+start = 209  end = 208  flags = 1  Type = 0  Tag = 0  frontSd = 348  backSd = 65535
+start = 127  end = 210  flags = 156  Type = 0  Tag = 0  frontSd = 349  backSd = 350
+start = 210  end = 211  flags = 28  Type = 0  Tag = 0  frontSd = 351  backSd = 352
+start = 211  end = 35  flags = 156  Type = 0  Tag = 0  frontSd = 353  backSd = 354
+start = 211  end = 130  flags = 28  Type = 0  Tag = 0  frontSd = 355  backSd = 356
+start = 129  end = 210  flags = 28  Type = 0  Tag = 0  frontSd = 357  backSd = 358
+start = 205  end = 212  flags = 1  Type = 0  Tag = 0  frontSd = 359  backSd = 65535
+start = 212  end = 191  flags = 1  Type = 0  Tag = 0  frontSd = 360  backSd = 65535
+start = 190  end = 213  flags = 1  Type = 0  Tag = 0  frontSd = 361  backSd = 65535
+start = 213  end = 204  flags = 1  Type = 0  Tag = 0  frontSd = 362  backSd = 65535
+start = 186  end = 214  flags = 1  Type = 0  Tag = 0  frontSd = 363  backSd = 65535
+start = 214  end = 189  flags = 1  Type = 0  Tag = 0  frontSd = 364  backSd = 65535
+start = 188  end = 215  flags = 1  Type = 0  Tag = 0  frontSd = 365  backSd = 65535
+start = 215  end = 184  flags = 1  Type = 0  Tag = 0  frontSd = 366  backSd = 65535
+start = 150  end = 162  flags = 6  Type = 0  Tag = 0  frontSd = 367  backSd = 368
+start = 147  end = 216  flags = 1  Type = 0  Tag = 0  frontSd = 369  backSd = 65535
+start = 216  end = 141  flags = 1  Type = 0  Tag = 0  frontSd = 370  backSd = 65535
+start = 145  end = 217  flags = 1  Type = 0  Tag = 0  frontSd = 371  backSd = 65535
+start = 217  end = 148  flags = 1  Type = 0  Tag = 0  frontSd = 372  backSd = 65535
+start = 218  end = 170  flags = 1  Type = 0  Tag = 0  frontSd = 373  backSd = 65535
+start = 170  end = 219  flags = 1  Type = 0  Tag = 0  frontSd = 374  backSd = 65535
+start = 219  end = 169  flags = 12  Type = 0  Tag = 0  frontSd = 375  backSd = 376
+start = 132  end = 220  flags = 1  Type = 0  Tag = 0  frontSd = 377  backSd = 65535
+start = 220  end = 221  flags = 1  Type = 0  Tag = 0  frontSd = 378  backSd = 65535
+start = 221  end = 222  flags = 1  Type = 0  Tag = 0  frontSd = 379  backSd = 65535
+start = 222  end = 223  flags = 1  Type = 0  Tag = 0  frontSd = 380  backSd = 65535
+start = 153  end = 223  flags = 29  Type = 0  Tag = 0  frontSd = 381  backSd = 382
+start = 222  end = 154  flags = 29  Type = 0  Tag = 0  frontSd = 383  backSd = 384
+start = 223  end = 150  flags = 1  Type = 0  Tag = 0  frontSd = 385  backSd = 65535
+start = 224  end = 225  flags = 1  Type = 0  Tag = 0  frontSd = 386  backSd = 65535
+start = 226  end = 227  flags = 1  Type = 0  Tag = 0  frontSd = 387  backSd = 65535
+start = 227  end = 228  flags = 1  Type = 0  Tag = 0  frontSd = 388  backSd = 65535
+start = 229  end = 230  flags = 1  Type = 0  Tag = 0  frontSd = 389  backSd = 65535
+start = 231  end = 232  flags = 1  Type = 0  Tag = 0  frontSd = 390  backSd = 65535
+start = 233  end = 224  flags = 1  Type = 0  Tag = 0  frontSd = 391  backSd = 65535
+start = 234  end = 235  flags = 1  Type = 0  Tag = 0  frontSd = 392  backSd = 65535
+start = 235  end = 236  flags = 1  Type = 0  Tag = 0  frontSd = 393  backSd = 65535
+start = 236  end = 237  flags = 1  Type = 0  Tag = 0  frontSd = 394  backSd = 65535
+start = 238  end = 239  flags = 1  Type = 0  Tag = 0  frontSd = 395  backSd = 65535
+start = 239  end = 240  flags = 1  Type = 0  Tag = 0  frontSd = 396  backSd = 65535
+start = 240  end = 241  flags = 1  Type = 0  Tag = 0  frontSd = 397  backSd = 65535
+start = 228  end = 242  flags = 1  Type = 0  Tag = 0  frontSd = 398  backSd = 65535
+start = 242  end = 229  flags = 1  Type = 0  Tag = 0  frontSd = 399  backSd = 65535
+start = 237  end = 243  flags = 1  Type = 0  Tag = 0  frontSd = 400  backSd = 65535
+start = 243  end = 234  flags = 1  Type = 0  Tag = 0  frontSd = 401  backSd = 65535
+start = 232  end = 244  flags = 1  Type = 0  Tag = 0  frontSd = 402  backSd = 65535
+start = 244  end = 233  flags = 1  Type = 0  Tag = 0  frontSd = 403  backSd = 65535
+start = 241  end = 245  flags = 1  Type = 0  Tag = 0  frontSd = 404  backSd = 65535
+start = 245  end = 238  flags = 1  Type = 0  Tag = 0  frontSd = 405  backSd = 65535
+start = 245  end = 246  flags = 5  Type = 0  Tag = 0  frontSd = 406  backSd = 407
+start = 246  end = 247  flags = 5  Type = 0  Tag = 0  frontSd = 408  backSd = 409
+start = 247  end = 242  flags = 5  Type = 0  Tag = 0  frontSd = 410  backSd = 411
+start = 248  end = 243  flags = 5  Type = 0  Tag = 0  frontSd = 412  backSd = 413
+start = 244  end = 249  flags = 5  Type = 0  Tag = 0  frontSd = 414  backSd = 415
+start = 249  end = 248  flags = 5  Type = 0  Tag = 0  frontSd = 416  backSd = 417
+start = 250  end = 251  flags = 1  Type = 0  Tag = 0  frontSd = 418  backSd = 65535
+start = 252  end = 253  flags = 1  Type = 0  Tag = 0  frontSd = 419  backSd = 65535
+start = 251  end = 254  flags = 1  Type = 0  Tag = 0  frontSd = 420  backSd = 65535
+start = 255  end = 252  flags = 1  Type = 0  Tag = 0  frontSd = 421  backSd = 65535
+start = 229  end = 232  flags = 12  Type = 36  Tag = 1  frontSd = 422  backSd = 423
+start = 234  end = 241  flags = 12  Type = 0  Tag = 0  frontSd = 424  backSd = 425
+start = 166  end = 209  flags = 12  Type = 0  Tag = 0  frontSd = 426  backSd = 427
+start = 253  end = 226  flags = 1  Type = 0  Tag = 0  frontSd = 428  backSd = 65535
+start = 225  end = 250  flags = 1  Type = 0  Tag = 0  frontSd = 429  backSd = 65535
+start = 238  end = 228  flags = 12  Type = 0  Tag = 0  frontSd = 430  backSd = 431
+start = 233  end = 237  flags = 12  Type = 0  Tag = 0  frontSd = 432  backSd = 433
+start = 252  end = 251  flags = 12  Type = 0  Tag = 0  frontSd = 434  backSd = 435
+start = 254  end = 256  flags = 1  Type = 0  Tag = 0  frontSd = 436  backSd = 65535
+start = 257  end = 255  flags = 1  Type = 0  Tag = 0  frontSd = 437  backSd = 65535
+start = 258  end = 257  flags = 1  Type = 0  Tag = 0  frontSd = 438  backSd = 65535
+start = 256  end = 259  flags = 1  Type = 0  Tag = 0  frontSd = 439  backSd = 65535
+start = 259  end = 260  flags = 17  Type = 0  Tag = 0  frontSd = 440  backSd = 65535
+start = 260  end = 261  flags = 1  Type = 0  Tag = 0  frontSd = 441  backSd = 65535
+start = 262  end = 263  flags = 1  Type = 0  Tag = 0  frontSd = 442  backSd = 65535
+start = 263  end = 258  flags = 17  Type = 0  Tag = 0  frontSd = 443  backSd = 65535
+start = 263  end = 260  flags = 4  Type = 1  Tag = 0  frontSd = 444  backSd = 445
+start = 259  end = 258  flags = 4  Type = 1  Tag = 0  frontSd = 446  backSd = 447
+start = 261  end = 264  flags = 17  Type = 0  Tag = 0  frontSd = 448  backSd = 65535
+start = 265  end = 262  flags = 17  Type = 0  Tag = 0  frontSd = 449  backSd = 65535
+start = 264  end = 266  flags = 17  Type = 0  Tag = 0  frontSd = 450  backSd = 65535
+start = 267  end = 268  flags = 17  Type = 0  Tag = 0  frontSd = 451  backSd = 65535
+start = 268  end = 269  flags = 17  Type = 11  Tag = 0  frontSd = 452  backSd = 65535
+start = 269  end = 265  flags = 17  Type = 0  Tag = 0  frontSd = 453  backSd = 65535
+start = 266  end = 267  flags = 17  Type = 0  Tag = 0  frontSd = 454  backSd = 65535
+start = 262  end = 261  flags = 12  Type = 0  Tag = 0  frontSd = 455  backSd = 456
+start = 270  end = 209  flags = 1  Type = 0  Tag = 0  frontSd = 457  backSd = 65535
+start = 166  end = 271  flags = 1  Type = 0  Tag = 0  frontSd = 458  backSd = 65535
+start = 230  end = 272  flags = 1  Type = 0  Tag = 0  frontSd = 459  backSd = 65535
+start = 272  end = 270  flags = 17  Type = 0  Tag = 0  frontSd = 460  backSd = 65535
+start = 271  end = 273  flags = 17  Type = 0  Tag = 0  frontSd = 461  backSd = 65535
+start = 273  end = 231  flags = 1  Type = 0  Tag = 0  frontSd = 462  backSd = 65535
+start = 271  end = 270  flags = 4  Type = 1  Tag = 0  frontSd = 463  backSd = 464
+start = 272  end = 273  flags = 4  Type = 1  Tag = 0  frontSd = 465  backSd = 466
+start = 274  end = 275  flags = 4  Type = 0  Tag = 0  frontSd = 467  backSd = 468
+start = 276  end = 277  flags = 4  Type = 0  Tag = 0  frontSd = 469  backSd = 470
+start = 277  end = 274  flags = 4  Type = 0  Tag = 0  frontSd = 471  backSd = 472
+start = 275  end = 276  flags = 4  Type = 0  Tag = 0  frontSd = 473  backSd = 474
+start = 256  end = 257  flags = 12  Type = 0  Tag = 0  frontSd = 475  backSd = 476
+start = 278  end = 279  flags = 4  Type = 0  Tag = 0  frontSd = 477  backSd = 478
+start = 280  end = 281  flags = 4  Type = 0  Tag = 0  frontSd = 479  backSd = 480
+start = 281  end = 278  flags = 4  Type = 0  Tag = 0  frontSd = 481  backSd = 482
+start = 279  end = 280  flags = 4  Type = 0  Tag = 0  frontSd = 483  backSd = 484
+start = 151  end = 146  flags = 1  Type = 0  Tag = 0  frontSd = 485  backSd = 65535
+start = 282  end = 283  flags = 28  Type = 48  Tag = 0  frontSd = 486  backSd = 487
+start = 283  end = 284  flags = 28  Type = 48  Tag = 0  frontSd = 488  backSd = 489
+start = 284  end = 285  flags = 28  Type = 48  Tag = 0  frontSd = 490  backSd = 491
+start = 285  end = 286  flags = 28  Type = 48  Tag = 0  frontSd = 492  backSd = 493
+start = 286  end = 287  flags = 28  Type = 48  Tag = 0  frontSd = 494  backSd = 495
+start = 287  end = 288  flags = 28  Type = 48  Tag = 0  frontSd = 496  backSd = 497
+start = 288  end = 289  flags = 28  Type = 48  Tag = 0  frontSd = 498  backSd = 499
+start = 289  end = 282  flags = 28  Type = 48  Tag = 0  frontSd = 500  backSd = 501
+start = 290  end = 291  flags = 1  Type = 0  Tag = 0  frontSd = 502  backSd = 65535
+start = 291  end = 292  flags = 1  Type = 0  Tag = 0  frontSd = 503  backSd = 65535
+start = 293  end = 294  flags = 1  Type = 0  Tag = 0  frontSd = 504  backSd = 65535
+start = 295  end = 296  flags = 1  Type = 0  Tag = 0  frontSd = 505  backSd = 65535
+start = 296  end = 297  flags = 1  Type = 0  Tag = 0  frontSd = 506  backSd = 65535
+start = 298  end = 299  flags = 1  Type = 0  Tag = 0  frontSd = 507  backSd = 65535
+start = 300  end = 301  flags = 1  Type = 0  Tag = 0  frontSd = 508  backSd = 65535
+start = 301  end = 302  flags = 1  Type = 0  Tag = 0  frontSd = 509  backSd = 65535
+start = 302  end = 303  flags = 1  Type = 0  Tag = 0  frontSd = 510  backSd = 65535
+start = 303  end = 295  flags = 1  Type = 0  Tag = 0  frontSd = 511  backSd = 65535
+start = 292  end = 300  flags = 1  Type = 0  Tag = 0  frontSd = 512  backSd = 65535
+start = 290  end = 304  flags = 12  Type = 0  Tag = 0  frontSd = 513  backSd = 514
+start = 304  end = 305  flags = 12  Type = 0  Tag = 0  frontSd = 515  backSd = 516
+start = 305  end = 297  flags = 12  Type = 0  Tag = 0  frontSd = 517  backSd = 518
+start = 299  end = 306  flags = 1  Type = 0  Tag = 0  frontSd = 519  backSd = 65535
+start = 306  end = 307  flags = 1  Type = 0  Tag = 0  frontSd = 520  backSd = 65535
+start = 307  end = 308  flags = 1  Type = 0  Tag = 0  frontSd = 521  backSd = 65535
+start = 308  end = 293  flags = 1  Type = 0  Tag = 0  frontSd = 522  backSd = 65535
+start = 298  end = 309  flags = 12  Type = 0  Tag = 0  frontSd = 523  backSd = 524
+start = 309  end = 294  flags = 12  Type = 0  Tag = 0  frontSd = 525  backSd = 526
+start = 310  end = 311  flags = 1  Type = 0  Tag = 0  frontSd = 527  backSd = 65535
+start = 142  end = 312  flags = 1  Type = 0  Tag = 0  frontSd = 528  backSd = 65535
+start = 313  end = 143  flags = 1  Type = 0  Tag = 0  frontSd = 529  backSd = 65535
+start = 312  end = 310  flags = 1  Type = 0  Tag = 0  frontSd = 530  backSd = 65535
+start = 125  end = 126  flags = 12  Type = 0  Tag = 0  frontSd = 531  backSd = 532
+start = 313  end = 310  flags = 12  Type = 0  Tag = 0  frontSd = 533  backSd = 534
+start = 314  end = 315  flags = 28  Type = 0  Tag = 0  frontSd = 535  backSd = 536
+start = 315  end = 316  flags = 28  Type = 0  Tag = 0  frontSd = 537  backSd = 538
+start = 316  end = 317  flags = 28  Type = 0  Tag = 0  frontSd = 539  backSd = 540
+start = 317  end = 314  flags = 28  Type = 0  Tag = 0  frontSd = 541  backSd = 542
+start = 294  end = 318  flags = 1  Type = 0  Tag = 0  frontSd = 543  backSd = 65535
+start = 318  end = 125  flags = 1  Type = 0  Tag = 0  frontSd = 544  backSd = 65535
+start = 126  end = 319  flags = 1  Type = 0  Tag = 0  frontSd = 545  backSd = 65535
+start = 319  end = 290  flags = 1  Type = 0  Tag = 0  frontSd = 546  backSd = 65535
+start = 297  end = 320  flags = 1  Type = 0  Tag = 0  frontSd = 547  backSd = 65535
+start = 320  end = 313  flags = 1  Type = 0  Tag = 0  frontSd = 548  backSd = 65535
+start = 311  end = 321  flags = 1  Type = 0  Tag = 0  frontSd = 549  backSd = 65535
+start = 321  end = 298  flags = 1  Type = 0  Tag = 0  frontSd = 550  backSd = 65535
+start = 322  end = 323  flags = 1  Type = 0  Tag = 0  frontSd = 551  backSd = 65535
+start = 323  end = 324  flags = 1  Type = 0  Tag = 0  frontSd = 552  backSd = 65535
+start = 324  end = 325  flags = 1  Type = 0  Tag = 0  frontSd = 553  backSd = 65535
+start = 325  end = 326  flags = 1  Type = 0  Tag = 0  frontSd = 554  backSd = 65535
+start = 326  end = 327  flags = 1  Type = 0  Tag = 0  frontSd = 555  backSd = 65535
+start = 327  end = 328  flags = 1  Type = 0  Tag = 0  frontSd = 556  backSd = 65535
+start = 328  end = 329  flags = 1  Type = 0  Tag = 0  frontSd = 557  backSd = 65535
+start = 329  end = 330  flags = 1  Type = 0  Tag = 0  frontSd = 558  backSd = 65535
+start = 330  end = 331  flags = 1  Type = 0  Tag = 0  frontSd = 559  backSd = 65535
+start = 331  end = 332  flags = 1  Type = 0  Tag = 0  frontSd = 560  backSd = 65535
+start = 332  end = 333  flags = 1  Type = 0  Tag = 0  frontSd = 561  backSd = 65535
+start = 333  end = 334  flags = 1  Type = 0  Tag = 0  frontSd = 562  backSd = 65535
+start = 334  end = 335  flags = 1  Type = 0  Tag = 0  frontSd = 563  backSd = 65535
+start = 335  end = 322  flags = 1  Type = 0  Tag = 0  frontSd = 564  backSd = 65535
+start = 327  end = 334  flags = 12  Type = 0  Tag = 0  frontSd = 565  backSd = 566
+start = 328  end = 333  flags = 12  Type = 0  Tag = 0  frontSd = 567  backSd = 568
+start = 329  end = 332  flags = 12  Type = 0  Tag = 0  frontSd = 569  backSd = 570
+start = 336  end = 337  flags = 28  Type = 0  Tag = 0  frontSd = 571  backSd = 572
+start = 337  end = 338  flags = 28  Type = 0  Tag = 0  frontSd = 573  backSd = 574
+start = 338  end = 339  flags = 28  Type = 0  Tag = 0  frontSd = 575  backSd = 576
+start = 339  end = 336  flags = 28  Type = 0  Tag = 0  frontSd = 577  backSd = 578
+start = 340  end = 341  flags = 28  Type = 0  Tag = 0  frontSd = 579  backSd = 580
+start = 341  end = 342  flags = 28  Type = 0  Tag = 0  frontSd = 581  backSd = 582
+start = 342  end = 343  flags = 28  Type = 0  Tag = 0  frontSd = 583  backSd = 584
+start = 343  end = 340  flags = 28  Type = 0  Tag = 0  frontSd = 585  backSd = 586
+start = 344  end = 345  flags = 28  Type = 0  Tag = 0  frontSd = 587  backSd = 588
+start = 345  end = 346  flags = 28  Type = 0  Tag = 0  frontSd = 589  backSd = 590
+start = 346  end = 347  flags = 28  Type = 0  Tag = 0  frontSd = 591  backSd = 592
+start = 347  end = 344  flags = 28  Type = 0  Tag = 0  frontSd = 593  backSd = 594
+start = 142  end = 144  flags = 4  Type = 0  Tag = 0  frontSd = 595  backSd = 596
+start = 348  end = 349  flags = 1  Type = 0  Tag = 0  frontSd = 597  backSd = 65535
+start = 350  end = 351  flags = 1  Type = 0  Tag = 0  frontSd = 598  backSd = 65535
+start = 352  end = 353  flags = 1  Type = 0  Tag = 0  frontSd = 599  backSd = 65535
+start = 349  end = 352  flags = 12  Type = 0  Tag = 0  frontSd = 600  backSd = 601
+start = 219  end = 354  flags = 1  Type = 0  Tag = 0  frontSd = 602  backSd = 65535
+start = 354  end = 355  flags = 1  Type = 0  Tag = 0  frontSd = 603  backSd = 65535
+start = 353  end = 356  flags = 1  Type = 0  Tag = 0  frontSd = 604  backSd = 65535
+start = 356  end = 169  flags = 1  Type = 0  Tag = 0  frontSd = 605  backSd = 65535
+start = 349  end = 357  flags = 1  Type = 0  Tag = 0  frontSd = 606  backSd = 65535
+start = 357  end = 350  flags = 1  Type = 0  Tag = 0  frontSd = 607  backSd = 65535
+start = 351  end = 358  flags = 1  Type = 0  Tag = 0  frontSd = 608  backSd = 65535
+start = 358  end = 352  flags = 1  Type = 0  Tag = 0  frontSd = 609  backSd = 65535
+start = 191  end = 359  flags = 1  Type = 0  Tag = 0  frontSd = 610  backSd = 65535
+start = 359  end = 360  flags = 1  Type = 0  Tag = 0  frontSd = 611  backSd = 65535
+start = 360  end = 187  flags = 1  Type = 0  Tag = 0  frontSd = 612  backSd = 65535
+start = 189  end = 361  flags = 1  Type = 0  Tag = 0  frontSd = 613  backSd = 65535
+start = 361  end = 362  flags = 1  Type = 0  Tag = 0  frontSd = 614  backSd = 65535
+start = 362  end = 190  flags = 1  Type = 0  Tag = 0  frontSd = 615  backSd = 65535
+start = 174  end = 363  flags = 1  Type = 0  Tag = 0  frontSd = 616  backSd = 65535
+start = 363  end = 177  flags = 1  Type = 0  Tag = 0  frontSd = 617  backSd = 65535
+start = 181  end = 364  flags = 1  Type = 0  Tag = 0  frontSd = 618  backSd = 65535
+start = 364  end = 176  flags = 1  Type = 0  Tag = 0  frontSd = 619  backSd = 65535
+start = 355  end = 365  flags = 1  Type = 0  Tag = 0  frontSd = 620  backSd = 65535
+start = 366  end = 367  flags = 1  Type = 0  Tag = 0  frontSd = 621  backSd = 65535
+start = 368  end = 366  flags = 1  Type = 0  Tag = 0  frontSd = 622  backSd = 65535
+start = 369  end = 370  flags = 1  Type = 0  Tag = 0  frontSd = 623  backSd = 65535
+start = 370  end = 371  flags = 1  Type = 0  Tag = 0  frontSd = 624  backSd = 65535
+start = 371  end = 372  flags = 1  Type = 0  Tag = 0  frontSd = 625  backSd = 65535
+start = 372  end = 373  flags = 1  Type = 0  Tag = 0  frontSd = 626  backSd = 65535
+start = 374  end = 368  flags = 1  Type = 0  Tag = 0  frontSd = 627  backSd = 65535
+start = 375  end = 374  flags = 1  Type = 0  Tag = 0  frontSd = 628  backSd = 65535
+start = 376  end = 375  flags = 1  Type = 0  Tag = 0  frontSd = 629  backSd = 65535
+start = 373  end = 377  flags = 1  Type = 0  Tag = 0  frontSd = 630  backSd = 65535
+start = 378  end = 376  flags = 1  Type = 0  Tag = 0  frontSd = 631  backSd = 65535
+start = 377  end = 379  flags = 1  Type = 0  Tag = 0  frontSd = 632  backSd = 65535
+start = 380  end = 378  flags = 1  Type = 0  Tag = 0  frontSd = 633  backSd = 65535
+start = 155  end = 218  flags = 30  Type = 0  Tag = 0  frontSd = 634  backSd = 635
+start = 365  end = 348  flags = 14  Type = 0  Tag = 0  frontSd = 636  backSd = 637
+start = 369  end = 367  flags = 30  Type = 0  Tag = 0  frontSd = 638  backSd = 639
+start = 155  end = 381  flags = 1  Type = 0  Tag = 0  frontSd = 640  backSd = 65535
+start = 381  end = 380  flags = 1  Type = 0  Tag = 0  frontSd = 641  backSd = 65535
+start = 379  end = 382  flags = 1  Type = 0  Tag = 0  frontSd = 642  backSd = 65535
+start = 382  end = 218  flags = 1  Type = 0  Tag = 0  frontSd = 643  backSd = 65535
+start = 365  end = 383  flags = 1  Type = 0  Tag = 0  frontSd = 644  backSd = 65535
+start = 383  end = 369  flags = 1  Type = 0  Tag = 0  frontSd = 645  backSd = 65535
+start = 367  end = 384  flags = 1  Type = 0  Tag = 0  frontSd = 646  backSd = 65535
+start = 384  end = 348  flags = 1  Type = 0  Tag = 0  frontSd = 647  backSd = 65535

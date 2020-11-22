@@ -6,7 +6,7 @@
 /*   By: konsolka <konsolka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/19 16:20:22 by konsolka          #+#    #+#             */
-/*   Updated: 2020/11/22 19:57:36 by konsolka         ###   ########.fr       */
+/*   Updated: 2020/11/22 20:05:04 by konsolka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,7 +71,7 @@ void	read_header(const uint8_t *pWADData, int offset, t_header *header)
 
 	header->DirCount = bytes_to_integer(pWADData, offset + 4);
 	header->DirOffset = bytes_to_integer(pWADData, offset + 8);
-	printf("WAD Type = %s\nDir Offset = %d\nDir Count = %d\n", header->WADType, header->DirOffset, header->DirCount);
+	//printf("WAD Type = %s\nDir Offset = %d\nDir Count = %d\n", header->WADType, header->DirOffset, header->DirCount);
 }
 
 void	read_dir_data(const uint8_t *pWADData, int offset, t_directory *dir)
@@ -101,7 +101,7 @@ void	wad_reader(t_file *file)
 	{
 		read_dir_data(file->pWADData, file->header.DirOffset + 16 * i, &dir);
 		vec_pushback(&file->dir, &dir);
-		printf("name = %s   offset = %d   size = %d\n", file->dir[i].LumpName, file->dir[i].LumpOffset, file->dir[i].LumpSize);
+		//printf("name = %s   offset = %d   size = %d\n", file->dir[i].LumpName, file->dir[i].LumpOffset, file->dir[i].LumpSize);
 		i++;
 	}
 }
@@ -157,13 +157,13 @@ bool	read_map_vertex(t_file file, const char *name)
 
 	if ((index = find_map_index(file, name)) < 0)
 	{
-		printf("Error in find_map_index index = %d\n", index);
+		//printf("Error in find_map_index index = %d\n", index);
 		return (false);								// WRITE ERROR
 	}
 	index += e_VERTEXES;
 	if (ft_strcmp(file.dir[index].LumpName, "VERTEXES") != 0)
 	{
-		printf("Error in ft_strcmp\n");
+		//printf("Error in ft_strcmp\n");
 		return (false);								// WRITE ERROR
 	}
 	int iVertexCount = file.dir[index].LumpSize / sizeof(t_vertex);
@@ -173,7 +173,7 @@ bool	read_map_vertex(t_file file, const char *name)
 	{
 		read_vertex_data(file.pWADData, file.dir[index].LumpOffset + i * sizeof(t_vertex), &vertex);
 		vec_pushback(&file.map.vertex, &vertex);
-		printf("xPos = %d   yPos = %d\n", file.map.vertex[i].xPos, file.map.vertex[i].yPos);
+		//printf("xPos = %d   yPos = %d\n", file.map.vertex[i].xPos, file.map.vertex[i].yPos);
 		i++;
 	}
 	return (true);
@@ -188,13 +188,13 @@ bool	read_map_linedef(t_file file, const char *name)
 
 	if ((index = find_map_index(file, name)) < 0)
 	{
-		printf("Error in read_map_linedef::find_map_index index = %d\n", index); // WRITE ERROR
+		//printf("Error in read_map_linedef::find_map_index index = %d\n", index); // WRITE ERROR
 		return (false);
 	}
 	index += e_LINEDEFS;
 	if (ft_strcmp(file.dir[index].LumpName, "LINEDEFS") != 0)
 	{
-		printf("Error in read_map_linedef::ft_strcmp\n%s != LINEDEFS\n", file.dir[index].LumpName);
+		//printf("Error in read_map_linedef::ft_strcmp\n%s != LINEDEFS\n", file.dir[index].LumpName);
 		return (false);								// WRITE ERROR
 	}
 	iLinedefCount = file.dir[index].LumpSize / sizeof(t_linedef);
@@ -204,7 +204,7 @@ bool	read_map_linedef(t_file file, const char *name)
 	{
 		read_linedef_data(file.pWADData, file.dir[index].LumpOffset + i * sizeof(t_linedef), &linedef);
 		vec_pushback(&file.map.linedef, &linedef);
-		printf("start = %d  end = %d  flags = %d  Type = %d  Tag = %d  frontSd = %d  backSd = %d\n",
+		//printf("start = %d  end = %d  flags = %d  Type = %d  Tag = %d  frontSd = %d  backSd = %d\n",
 											file.map.linedef[i].startVertex,
 											file.map.linedef[i].endVertex,
 											file.map.linedef[i].flags,
@@ -219,16 +219,16 @@ bool	read_map_linedef(t_file file, const char *name)
 
 void	load_map(const char *name, t_file file)
 {
-	printf("===========================LOADING VERTEX==========================\n");
+	//printf("===========================LOADING VERTEX==========================\n");
 	if (!read_map_vertex(file, name))
 	{
-		printf("Error: Failed to load map vertex data MAP:%s\n", name);
+		//printf("Error: Failed to load map vertex data MAP:%s\n", name);
 		exit(1);
 	}
-	printf("===========================LOADING LINEDEF==========================\n");
+	//printf("===========================LOADING LINEDEF==========================\n");
 	if (!read_map_linedef(file, name))
 	{
-		printf("Error: Failed to load map linedef data MAP:%s\n", name);
+		//printf("Error: Failed to load map linedef data MAP:%s\n", name);
 		exit(2);
 	}
 }
