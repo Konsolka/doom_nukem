@@ -6,7 +6,7 @@
 /*   By: konsolka <konsolka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/19 16:20:22 by konsolka          #+#    #+#             */
-/*   Updated: 2020/11/22 18:36:57 by konsolka         ###   ########.fr       */
+/*   Updated: 2020/11/22 19:40:28 by konsolka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,7 +71,7 @@ void	read_header(const uint8_t *pWADData, int offset, t_header *header)
 
 	header->DirCount = bytes_to_integer(pWADData, offset + 4);
 	header->DirOffset = bytes_to_integer(pWADData, offset + 8);
-	printf("%s=%d=%d", header->WADType, header->DirOffset, header->DirCount);
+	printf("WAD Type = %s\nDir Offset = %d\nDir Count = %d\n", header->WADType, header->DirOffset, header->DirCount);
 }
 
 void	read_dir_data(const uint8_t *pWADData, int offset, t_directory *dir)
@@ -89,24 +89,23 @@ void	read_dir_data(const uint8_t *pWADData, int offset, t_directory *dir)
 	dir->LumpName[8] = '\0';
 	
 }
-t_file	wad_reader(uint8_t *wad)
+void	wad_reader(t_file *file)
 {
-	t_file	file;
 	t_directory dir;
 	uint32_t	i;
 
-	read_header(wad, 0, &file.header);
+	read_header(file->pWADData, 0, &file->header);
 	i = 0;
-	file.dir = (t_directory *)vec_create(file.header.DirCount, sizeof(t_directory));
-	while (i < file.header.DirCount)
+	file->dir = vec_create(file->header.DirCount, sizeof(t_directory));
+	while (i < file->header.DirCount)
 	{
-		read_dir_data(wad, file.header.DirOffset + 16 * i, &dir);
-		vec_pushback(&file.dir, &dir);
-		printf("\n%s=%d=%d\n", file.dir[i].LumpName, file.dir[i].LumpOffset, file.dir[i].LumpSize);
+		read_dir_data(file->pWADData, file->header.DirOffset + 16 * i, &dir);
+		vec_pushback(&file->dir, &dir);
+		printf("name = %s   offset = %d   size = %d\n", file->dir[i].LumpName, file->dir[i].LumpOffset, file->dir[i].LumpSize);
 		i++;
 	}
-	return (file);
 }
+
 
 void	read_vertex_data(const uint8_t *pWADData, int offset, t_vertex *vertex)
 {
@@ -130,7 +129,7 @@ t_file	read_wad(const char *path)
 	t_file	file;
 
 	file.pWADData = wad_loader(path);
-	file = wad_reader(file.pWADData);
+	wad_reader(&file);
 	return (file);
 }
 
@@ -143,7 +142,6 @@ int		find_map_index(t_file file, const char *name)
 	i = 0;
 	while (i < vec_size(&file.dir))
 	{
-		printf("Lump name = %s === %s", file.dir[i].LumpName, name);
 		if (ft_strcmp(file.dir[i].LumpName, name) == 0)
 			return (i);
 		i++;
@@ -153,7 +151,7 @@ int		find_map_index(t_file file, const char *name)
 
 bool	read_map_vertex(t_file file, const char *name)
 {
-	t_vertex *vertex;
+	t_vertex vertex;
 	int index;
 	int	i;
 
@@ -173,10 +171,9 @@ bool	read_map_vertex(t_file file, const char *name)
 	file.map.vertex = (t_vertex *)vec_create(iVertexCount, sizeof(t_vertex));
 	while (i < iVertexCount)
 	{
-		vertex = (t_vertex *)vec_create(1, sizeof(t_vertex));
-		read_vertex_data(file.pWADData, file.dir[index].LumpOffset + i * sizeof(t_vertex), vertex);
+		read_vertex_data(file.pWADData, file.dir[index].LumpOffset + i * sizeof(t_vertex), &vertex);
 		vec_pushback(&file.map.vertex, &vertex);
-		printf("i = %d=%d=%d\n", i, file.map.vertex[i].xPos, file.map.vertex[i].yPos);
+		printf("xPos = %d   yPos = %d\n", file.map.vertex[i].xPos, file.map.vertex[i].yPos);
 		i++;
 	}
 	return (true);
