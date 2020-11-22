@@ -6,7 +6,7 @@
 /*   By: konsolka <konsolka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/19 16:20:22 by konsolka          #+#    #+#             */
-/*   Updated: 2020/11/22 19:40:28 by konsolka         ###   ########.fr       */
+/*   Updated: 2020/11/22 19:51:59 by konsolka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -186,11 +186,17 @@ bool	read_map_linedef(t_file file, const char *name)
 	int iLinedefCount;
 	t_linedef	linedef;
 
-	if ((index = find_map_index(file, name) < 0))
-		return (false);									// WRITE ERROR
-	index += e_VERTEXES;
+	if ((index = find_map_index(file, name)) < 0)
+	{
+		printf("Error in read_map_linedef::find_map_index index = %d\n", index); // WRITE ERROR
+		return (false);
+	}
+	index += e_LINEDEFS;
 	if (ft_strcmp(file.dir[index].LumpName, "LINEDEFS") != 0)
+	{
+		printf("Error in read_map_linedef::ft_strcmp\n%s != LINEDEFS\n", file.dir[index].LumpName);
 		return (false);								// WRITE ERROR
+	}
 	iLinedefCount = file.dir[index].LumpSize / sizeof(t_linedef);
 	i = 0;
 	file.map.linedef = vec_create(iLinedefCount, sizeof(t_linedef));
