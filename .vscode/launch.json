@@ -5,12 +5,12 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
-			"name": "gcc - Build and debug active file",
+			"name": "gcc-9 - Build and debug active file",
 			"type": "cppdbg",
 			"request": "launch",
 			"program": "${workspaceFolder}/doom",
-			"args": [],
-			"stopAtEntry": false,
+			"args": ["Doom1.WAD"],
+			"stopAtEntry": true,
 			"cwd": "${workspaceFolder}",
 			"environment": [],
 			"externalConsole": false,

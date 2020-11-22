@@ -6,13 +6,14 @@
 /*   By: konsolka <konsolka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/22 14:45:13 by konsolka          #+#    #+#             */
-/*   Updated: 2020/11/22 16:13:56 by konsolka         ###   ########.fr       */
+/*   Updated: 2020/11/22 18:00:53 by konsolka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FILE_H
 # define FILE_H
 # include <stdint.h>
+# include "fields.h"
 
 typedef struct	s_header
 {
@@ -30,8 +31,10 @@ typedef struct	s_directory
 
 typedef struct	s_file
 {
+	uint8_t		*pWADData;
 	t_header	header;
-	t_directory	dir;
+	t_directory	*dir;
+	t_map		map;
 	
 }				t_file;
 #endif

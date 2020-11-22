@@ -6,7 +6,7 @@
 /*   By: konsolka <konsolka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/22 16:02:30 by konsolka          #+#    #+#             */
-/*   Updated: 2020/11/22 16:05:25 by konsolka         ###   ########.fr       */
+/*   Updated: 2020/11/22 17:56:45 by konsolka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,21 @@
 # define FIELDS_H
 
 # include <stdint.h>
+
+enum			e_mapLumpsIndex
+{
+    e_THINGS = 1,
+    e_LINEDEFS,
+    e_SIDEDDEFS,
+    e_VERTEXES,
+    e_SEAGS,
+    e_SSECTORS,
+    e_NODES,
+    e_SECTORS,
+    e_REJECT,
+    e_BLOCKMAP,
+    e_COUNT
+};
 
 typedef struct	s_vertex
 {
@@ -31,5 +46,12 @@ typedef struct	s_linedef
 	uint16_t	frontSidedef;
 	uint16_t	backSidedef;
 }				t_linedef;
+
+typedef struct	s_map
+{
+	char		*name;
+	t_vertex	*vertex;
+	t_linedef	*linedef;
+}				t_map;
 
 #endif
