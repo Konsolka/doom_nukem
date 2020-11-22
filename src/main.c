@@ -6,7 +6,7 @@
 /*   By: konsolka <konsolka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/19 16:20:22 by konsolka          #+#    #+#             */
-/*   Updated: 2020/11/22 19:51:59 by konsolka         ###   ########.fr       */
+/*   Updated: 2020/11/22 19:57:36 by konsolka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -198,19 +198,20 @@ bool	read_map_linedef(t_file file, const char *name)
 		return (false);								// WRITE ERROR
 	}
 	iLinedefCount = file.dir[index].LumpSize / sizeof(t_linedef);
-	i = 0;
 	file.map.linedef = vec_create(iLinedefCount, sizeof(t_linedef));
+	i = 0;
 	while (i < iLinedefCount)
 	{
 		read_linedef_data(file.pWADData, file.dir[index].LumpOffset + i * sizeof(t_linedef), &linedef);
-		printf("%d=%d=%d=%d=%d=%d=%d\n", file.map.linedef[i].startVertex,
+		vec_pushback(&file.map.linedef, &linedef);
+		printf("start = %d  end = %d  flags = %d  Type = %d  Tag = %d  frontSd = %d  backSd = %d\n",
+											file.map.linedef[i].startVertex,
 											file.map.linedef[i].endVertex,
 											file.map.linedef[i].flags,
 											file.map.linedef[i].lineTypes,
 											file.map.linedef[i].sectorTag,
 											file.map.linedef[i].frontSidedef,
 											file.map.linedef[i].backSidedef);
-		vec_pushback(&file.map.linedef, &linedef);
 		i++;
 	}
 	return (true);
