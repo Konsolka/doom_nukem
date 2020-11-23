@@ -6,7 +6,7 @@
 /*   By: mburl <mburl@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/23 12:52:51 by mburl             #+#    #+#             */
-/*   Updated: 2020/11/23 13:10:49 by mburl            ###   ########.fr       */
+/*   Updated: 2020/11/23 15:39:31 by mburl            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,8 @@
 
 typedef struct	s_thing
 {
-	int16_t	xPos;
-	int16_t	yPos;
+	int16_t	x_pos;
+	int16_t	y_pos;
 	int16_t	angle;
 	int16_t	type;
 	int16_t	flag;

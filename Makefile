@@ -1,6 +1,10 @@
 NAME 		=		doom
 
-SRCS		=		main.c\
+SRCS		=		wad_reader/read_linedef.c\
+					wad_reader/read_sidedef.c\
+					wad_reader/read_thing.c\
+					wad_reader/read_vertex.c\
+					main.c\
 					utils.c
 
 
@@ -20,10 +24,13 @@ INCLUDES =			-I $(LIBFT_DIR) -I $(INCLUDES_DIR)
 #									HEADERS
 #-------------------------------------------------------------------------------
 
-HEADERS_LIST =		doom_utils.h\
-					fields.h\
+HEADERS_LIST =		doom_prototypes.h\
 					file.h\
-					thing.h
+					linedef.h\
+					sidedef.h\
+					thing.h\
+					vertex.h
+
 
 HEADERS =			$(addprefix $(INCLUDES_DIR), $(HEADERS_LIST))
 
@@ -55,6 +62,7 @@ $(LIBFT):
 
 $(OBJS_DIR):
 	mkdir -p $(OBJS_DIR)
+	mkdir -p $(OBJS_DIR)/wad_reader
 
 $(OBJS_DIR)/%.o: $(SRCS_DIR)/%.c $(HEADERS)
 	gcc $(FLAGS_COMPILE) $(INCLUDES) -o $@ -c $<

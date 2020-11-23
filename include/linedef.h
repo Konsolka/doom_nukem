@@ -1,20 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   doom_utils.h                                       :+:      :+:    :+:   */
+/*   linedef.h                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mburl <mburl@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/11/23 12:58:33 by mburl             #+#    #+#             */
-/*   Updated: 2020/11/23 13:34:30 by mburl            ###   ########.fr       */
+/*   Created: 2020/11/23 14:46:38 by mburl             #+#    #+#             */
+/*   Updated: 2020/11/23 15:38:10 by mburl            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef DOOM_UTILS_H
-# define DOOM_UTILS_H
+#ifndef LINEDEF_H
+# define LINEDEF_H
+
 # include <stdint.h>
 
-uint32_t	bytes_to_integer(const uint8_t *pWADData, int offset);
-uint16_t	bytes_to_short(const uint8_t *pWADData, int offset);
+typedef struct	s_linedef
+{
+	uint16_t	start_vertex;
+	uint16_t	end_vertex;
+	uint16_t	flags;
+	uint16_t	line_types;
+	uint16_t	sector_tag;
+	uint16_t	front_sidedef;
+	uint16_t	back_sidedef;
+}				t_linedef;
 
 #endif

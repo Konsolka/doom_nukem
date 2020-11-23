@@ -8,3 +8,20 @@
 - 6	Препятствует звуку
 - 7	Никогда не показывается на автокарте
 - 8	Всегда показывается на автокарте
+
+
+
+
+
+
+#### TODO:
+##### reading:
+- THINGS V
+- LINEDEFS V
+- SIDEDEFS V
+- VERTEXES V
+- SEGS
+- SSECTORS
+- NODES
+- REJECT
+- BLOCKMAP
