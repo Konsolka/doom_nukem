@@ -1,6 +1,8 @@
 NAME 		=		doom
 
 SRCS		=		wad_reader/read_linedef.c\
+					wad_reader/read_ssectors.c\
+					wad_reader/read_segs.c\
 					wad_reader/read_sidedef.c\
 					wad_reader/read_thing.c\
 					wad_reader/read_vertex.c\
@@ -27,6 +29,8 @@ INCLUDES =			-I $(LIBFT_DIR) -I $(INCLUDES_DIR)
 HEADERS_LIST =		doom_prototypes.h\
 					file.h\
 					linedef.h\
+					ssectors.h\
+					segs.h\
 					sidedef.h\
 					thing.h\
 					vertex.h

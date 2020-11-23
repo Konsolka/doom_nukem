@@ -6,7 +6,7 @@
 /*   By: mburl <mburl@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/19 16:20:22 by konsolka          #+#    #+#             */
-/*   Updated: 2020/11/23 15:45:22 by mburl            ###   ########.fr       */
+/*   Updated: 2020/11/23 16:45:28 by mburl            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -116,34 +116,24 @@ void	load_map(const char *name, t_file file)
 	if ((index = find_map_index(file, name)) < 0)
 		ft_exit("Error in", "load_map::find_map_index", "", 1);
 	// printf("Error in read_map_thing::find_map_index index = %d", index);
-	printf("===========================LOADING VERTEX==========================\n");
+	printf("LOADING VERTEX\n");
 	if (!read_map_vertex(file, index))
-	{
-		printf("Error: Failed to load map vertex data MAP:%s\n", name);
-		exit(1);
-	}
-	printf("Done\n");
-	printf("===========================LOADING LINEDEF==========================\n");
+		ft_exit("Error: in", "read_map_vertex MAP:", name, 2);
+	printf("LOADING LINEDEF\n");
 	if (!read_map_linedef(file, index))
-	{
-		printf("Error: Failed to load map linedef data MAP:%s\n", name);
-		exit(2);
-	}
-	printf("Done\n");
-	printf("===========================LOADING THINGS==========================\n");
+		ft_exit("Error: in", "read_map_linedef MAP:", name, 3);
+	printf("LOADING THINGS\n");
 	if (!read_map_thing(file, index))
-	{
-		printf("Error: Failed to load map things data MAP:%s\n", name);
-		exit(3);
-	}
-	printf("Done\n");
-	printf("===========================LOADING SIDEDEFS==========================\n");
+		ft_exit("Error: in", "read_map_linedef MAP:", name, 4);
+	printf("LOADING SIDEDEFS\n");
 	if (!read_map_sidedef(file, index))
-	{
-		printf("Error: Failed to load map sidedefs data MAP:%s\n", name);
-		exit(4);
-	}
-	printf("Done\n");
+		ft_exit("Error: in", "read_map_sidedef MAP:", name, 5);
+	printf("LOADING SEGS\n");
+	if (!read_map_segs(file, index))
+		ft_exit("Error: in", "read_map_segs Map:", name, 6);
+	printf("LOADING SSECTORS\n");
+	if (!read_map_ssectors(file, index))
+		ft_exit("Error: in", " read_map_sectors MAP:", name, 7);
 }
 
 int		main(int ac, char **av)

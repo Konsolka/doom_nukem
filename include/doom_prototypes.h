@@ -6,7 +6,7 @@
 /*   By: mburl <mburl@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/23 15:08:03 by mburl             #+#    #+#             */
-/*   Updated: 2020/11/23 15:43:03 by mburl            ###   ########.fr       */
+/*   Updated: 2020/11/23 16:44:17 by mburl            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,6 +23,13 @@ bool		read_map_linedef(t_file file, int index);
 bool		read_map_vertex(t_file file, int index);
 bool		read_map_sidedef(t_file file, int index);
 bool		read_map_thing(t_file file, int index);
+bool		read_map_segs(t_file file, int index);
+bool		read_map_ssectors(t_file file, int index);
+
+
+/*
+** ===========================UTILS===========================
+*/
 
 uint32_t	bytes_to_integer(const uint8_t *p_wad_data, int offset);
 uint16_t	bytes_to_short(const uint8_t *p_wad_data, int offset);

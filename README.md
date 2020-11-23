@@ -16,12 +16,15 @@
 
 #### TODO:
 ##### reading:
-- THINGS V
-- LINEDEFS V
-- SIDEDEFS V
-- VERTEXES V
-- SEGS
-- SSECTORS
+- THINGS	V
+- LINEDEFS	V
+- SIDEDEFS	V
+- VERTEXES	V
+- SEGS		V
+- SSECTORS	V
 - NODES
 - REJECT
 - BLOCKMAP
+
+### New idea
+- Search for quake map files and gzdoom because they have not horizontal floor and much more cooler

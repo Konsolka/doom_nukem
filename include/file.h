@@ -6,7 +6,7 @@
 /*   By: mburl <mburl@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/22 14:45:13 by konsolka          #+#    #+#             */
-/*   Updated: 2020/11/23 15:40:35 by mburl            ###   ########.fr       */
+/*   Updated: 2020/11/23 16:43:05 by mburl            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,8 @@
 # include "sidedef.h"
 # include "thing.h"
 # include "vertex.h"
+# include "segs.h"
+# include "ssectors.h"
 
 enum			e_map_lumps_index
 {
@@ -26,7 +28,7 @@ enum			e_map_lumps_index
 	e_LINEDEFS,
 	e_SIDEDDEFS,
 	e_VERTEXES,
-	e_SEAGS,
+	e_SEGS,
 	e_SSECTORS,
 	e_NODES,
 	e_SECTORS,
@@ -42,6 +44,8 @@ typedef struct	s_map
 	t_linedef	*linedef;
 	t_thing		*things;
 	t_sidedef	*sidedef;
+	t_segs		*segs;
+	t_ssectors	*ssectors;
 }				t_map;
 
 typedef struct	s_header
