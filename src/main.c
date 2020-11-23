@@ -6,7 +6,7 @@
 /*   By: mburl <mburl@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/19 16:20:22 by konsolka          #+#    #+#             */
-/*   Updated: 2020/11/23 13:47:06 by mburl            ###   ########.fr       */
+/*   Updated: 2020/11/23 14:07:50 by mburl            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -130,21 +130,21 @@ void	read_sidedef_data(const uint8_t *pWADData, int offset, t_sidedef *sidedef)
 	sidedef->xOffset = bytes_to_short(pWADData, offset);
 	sidedef->yOffset = bytes_to_short(pWADData, offset + 2);
 	i = 0;
-	while (i < 9)
+	while (i < 8)
 	{
 		sidedef->upTex[i] = pWADData[offset + 4 + i];
 		i++;
 	}
 	sidedef->upTex[i] = '\0';
 	i = 0;
-	while (i < 9)
+	while (i < 8)
 	{
 		sidedef->downTex[i] = pWADData[offset + 12 + i];
 		i++;
 	}
 	sidedef->downTex[i] = '\0';
 	i = 0;
-	while (i < 9)
+	while (i < 8)
 	{
 		sidedef->midTex[i] = pWADData[offset + 20 + i];
 		i++;
@@ -298,7 +298,7 @@ bool	read_map_sidedef(t_file file, const char *name)
 		printf("Error in read_map_linedef::ft_strcmp\n%s != LINEDEFS\n", file.dir[index].LumpName);
 		return (false);								// WRITE ERROR
 	}
-	size = sizeof(t_sidedef);
+	size = sizeof(t_sidedef) - 4;
 	iSidedefCount = file.dir[index].LumpSize / size;
 	printf("=============================%d========================", iSidedefCount);
 	file.map.sidedef = vec_create(iSidedefCount, sizeof(t_sidedef));
@@ -355,5 +355,6 @@ int		main(int ac, char **av)
 	load_map("E1M1", file);
 	free(file.pWADData);
 	(void)ac;
+	exit(0);
 	return (0);	
 }
