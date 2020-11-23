@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: konsolka <konsolka@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mburl <mburl@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/19 16:20:22 by konsolka          #+#    #+#             */
-/*   Updated: 2020/11/22 20:08:08 by konsolka         ###   ########.fr       */
+/*   Updated: 2020/11/23 13:47:06 by mburl            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@
 #include <stdio.h>
 #include "file.h"
 #include "fields.h"
-
+#include "doom_utils.h"
 size_t	wad_len(const char *path)
 {
 	size_t	wad_len;
@@ -52,15 +52,6 @@ uint8_t	*wad_loader(const char *path)
 	return (data);
 }
 
-uint32_t	bytes_to_integer(const uint8_t *pWADData, int offset)
-{
-	return ((pWADData[offset + 3] << 24) | (pWADData[offset + 2] << 16) | (pWADData[offset + 1] << 8) | pWADData[offset]);
-}
-
-uint16_t	bytes_to_short(const uint8_t *pWADData, int offset)
-{
-	return ((pWADData[offset + 1] << 8) | pWADData[offset]);
-}
 void	read_header(const uint8_t *pWADData, int offset, t_header *header)
 {
 	header->WADType[0] = pWADData[offset];
@@ -113,6 +104,15 @@ void	read_vertex_data(const uint8_t *pWADData, int offset, t_vertex *vertex)
 	vertex->yPos = bytes_to_short(pWADData, offset + 2);
 }
 
+void	read_thing_data(const uint8_t *pWADData, int offset, t_thing *thing)
+{
+	thing->xPos = bytes_to_short(pWADData, offset);
+	thing->yPos = bytes_to_short(pWADData, offset + 2);
+	thing->angle = bytes_to_short(pWADData, offset + 4);
+	thing->type = bytes_to_short(pWADData, offset + 6);
+	thing->flag = bytes_to_short(pWADData, offset + 8);
+}
+
 void	read_linedef_data(const uint8_t *pWADData, int offset, t_linedef *linedef)
 {
 	linedef->startVertex = bytes_to_short(pWADData, offset);
@@ -122,6 +122,35 @@ void	read_linedef_data(const uint8_t *pWADData, int offset, t_linedef *linedef)
 	linedef->sectorTag = bytes_to_short(pWADData, offset + 8);
 	linedef->frontSidedef = bytes_to_short(pWADData, offset + 10);
 	linedef->backSidedef = bytes_to_short(pWADData, offset + 12);
+}
+
+void	read_sidedef_data(const uint8_t *pWADData, int offset, t_sidedef *sidedef)
+{
+	int		i;
+	sidedef->xOffset = bytes_to_short(pWADData, offset);
+	sidedef->yOffset = bytes_to_short(pWADData, offset + 2);
+	i = 0;
+	while (i < 9)
+	{
+		sidedef->upTex[i] = pWADData[offset + 4 + i];
+		i++;
+	}
+	sidedef->upTex[i] = '\0';
+	i = 0;
+	while (i < 9)
+	{
+		sidedef->downTex[i] = pWADData[offset + 12 + i];
+		i++;
+	}
+	sidedef->downTex[i] = '\0';
+	i = 0;
+	while (i < 9)
+	{
+		sidedef->midTex[i] = pWADData[offset + 20 + i];
+		i++;
+	}
+	sidedef->midTex[i] = '\0';
+	sidedef->sector = bytes_to_short(pWADData, offset + 28);
 }
 
 t_file	read_wad(const char *path)
@@ -179,6 +208,38 @@ bool	read_map_vertex(t_file file, const char *name)
 	return (true);
 }
 
+bool	read_map_thing(t_file file, const char *name)
+{
+	int		index;
+	int		i;
+	int		iThingCount;
+	t_thing	thing;
+
+	if ((index = find_map_index(file, name)) < 0)
+	{
+		printf("Error in read_map_thing::find_map_index index = %d", index);
+		return (false);
+	}
+	index += e_THINGS;
+	if (ft_strcmp(file.dir[index].LumpName, "THINGS") != 0)
+	{
+		printf("Error in read_map_thing::ft_strcmp %s != THINGS", file.dir[index].LumpName);
+		return (false);
+	}
+	iThingCount = file.dir[index].LumpSize / sizeof(t_thing);
+	file.map.things = vec_create(iThingCount, sizeof(t_thing));
+	i = 0;
+	while (i < iThingCount)
+	{
+		read_thing_data(file.pWADData, file.dir[index].LumpOffset + i * sizeof(t_thing), &thing);
+		vec_pushback(&file.map.things, &thing);
+		printf("xPos = %d   yPos = %d   angle = %d   type = %d   flags = %d\n", file.map.things[i].xPos, file.map.things[i].yPos,
+													file.map.things[i].angle, file.map.things[i].type, file.map.things[i].flag);
+		i++;
+	}
+	return (true);
+}
+
 bool	read_map_linedef(t_file file, const char *name)
 {
 	int index;
@@ -204,7 +265,8 @@ bool	read_map_linedef(t_file file, const char *name)
 	{
 		read_linedef_data(file.pWADData, file.dir[index].LumpOffset + i * sizeof(t_linedef), &linedef);
 		vec_pushback(&file.map.linedef, &linedef);
-		printf("start = %d  end = %d  flags = %d  Type = %d  Tag = %d  frontSd = %d  backSd = %d\n",
+		printf("i = %d   start = %d  end = %d  flags = %d  Type = %d  Tag = %d  frontSd = %d  backSd = %d\n",
+											i,
 											file.map.linedef[i].startVertex,
 											file.map.linedef[i].endVertex,
 											file.map.linedef[i].flags,
@@ -217,6 +279,46 @@ bool	read_map_linedef(t_file file, const char *name)
 	return (true);
 }
 
+bool	read_map_sidedef(t_file file, const char *name)
+{
+	int index;
+	int	i;
+	int iSidedefCount;
+	size_t		size;
+	t_sidedef	sidedef;
+
+	if ((index = find_map_index(file, name)) < 0)
+	{
+		printf("Error in read_map_linedef::find_map_index index = %d\n", index); // WRITE ERROR
+		return (false);
+	}
+	index += e_SIDEDDEFS;
+	if (ft_strcmp(file.dir[index].LumpName, "SIDEDEFS") != 0)
+	{
+		printf("Error in read_map_linedef::ft_strcmp\n%s != LINEDEFS\n", file.dir[index].LumpName);
+		return (false);								// WRITE ERROR
+	}
+	size = sizeof(t_sidedef);
+	iSidedefCount = file.dir[index].LumpSize / size;
+	printf("=============================%d========================", iSidedefCount);
+	file.map.sidedef = vec_create(iSidedefCount, sizeof(t_sidedef));
+	i = 0;
+	while (i < iSidedefCount)
+	{
+		read_sidedef_data(file.pWADData, file.dir[index].LumpOffset + i * size, &sidedef);
+		vec_pushback(&file.map.sidedef, &sidedef);
+		printf("i = %d   xOffset = %d  yOffset = %d  upTex = %s  lowTex = %s  midTex = %s  sector = %d\n",
+											i,
+											file.map.sidedef[i].xOffset,
+											file.map.sidedef[i].yOffset,
+											file.map.sidedef[i].upTex,
+											file.map.sidedef[i].downTex,
+											file.map.sidedef[i].midTex,
+											file.map.sidedef[i].sector);
+		i++;
+	}
+	return (true);
+}
 void	load_map(const char *name, t_file file)
 {
 	printf("===========================LOADING VERTEX==========================\n");
@@ -230,6 +332,18 @@ void	load_map(const char *name, t_file file)
 	{
 		printf("Error: Failed to load map linedef data MAP:%s\n", name);
 		exit(2);
+	}
+	printf("===========================LOADING THINGS==========================\n");
+	if (!read_map_thing(file, name))
+	{
+		printf("Error: Failed to load map things data MAP:%s\n", name);
+		exit(3);
+	}
+	printf("===========================LOADING SIDEDEFS==========================\n");
+	if (!read_map_sidedef(file, name))
+	{
+		printf("Error: Failed to load map sidedefs data MAP:%s\n", name);
+		exit(4);
 	}
 }
 

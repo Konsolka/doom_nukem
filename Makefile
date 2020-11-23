@@ -1,6 +1,7 @@
 NAME 		=		doom
 
-SRCS		=		main.c
+SRCS		=		main.c\
+					utils.c
 
 
 SRCS_DIR 	=		src
@@ -19,7 +20,10 @@ INCLUDES =			-I $(LIBFT_DIR) -I $(INCLUDES_DIR)
 #									HEADERS
 #-------------------------------------------------------------------------------
 
-HEADERS_LIST =		
+HEADERS_LIST =		doom_utils.h\
+					fields.h\
+					file.h\
+					thing.h
 
 HEADERS =			$(addprefix $(INCLUDES_DIR), $(HEADERS_LIST))
 
