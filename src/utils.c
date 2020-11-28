@@ -3,16 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   utils.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mburl <mburl@student.42.fr>                +#+  +:+       +#+        */
+/*   By: konsolka <konsolka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/23 12:58:09 by mburl             #+#    #+#             */
-/*   Updated: 2020/11/23 15:41:07 by mburl            ###   ########.fr       */
+/*   Updated: 2020/11/28 20:28:03 by konsolka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "file.h"
 #include "doom_prototypes.h"
 #include "includes/libft.h"
+#include <string.h>
 
 uint32_t	bytes_to_integer(const uint8_t *p_wad_data, int offset)
 {
@@ -41,6 +42,7 @@ int		find_map_index(t_file file, const char *name)
 void		ft_exit(const char *msg, const char *func_name, const char *add_msg,
 										int exit_code)
 {
+	perror("Perror");
 	write(2, msg, ft_strlen(msg));
 	write(2, " ", 1);
 	write(2, func_name, ft_strlen(func_name));

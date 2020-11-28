@@ -1,12 +1,17 @@
 NAME 		=		doom
 
+NAME_PACKER	=		packer
+
 SRCS		=		wad_reader/read_linedef.c\
-					wad_reader/read_ssectors.c\
 					wad_reader/read_segs.c\
 					wad_reader/read_sidedef.c\
+					wad_reader/read_ssectors.c\
 					wad_reader/read_thing.c\
 					wad_reader/read_vertex.c\
-					main.c\
+					wad_reader/main.c\
+					utils.c\
+
+SRCS_PACKER	=		packer/main.c\
 					utils.c
 
 
@@ -14,6 +19,7 @@ SRCS_DIR 	=		src
 OBJS_DIR	=		obj
 
 OBJS		=		$(addprefix $(OBJS_DIR)/, $(SRCS:.c=.o))
+OBJS_PACKER	=		$(addprefix $(OBJS_DIR)/, $(SRCS_PACKER:.c=.o))
 
 #-------------------------------------------------------------------------------
 #									INCLUDES
@@ -59,7 +65,7 @@ FLAGS_COMPILE =		-Wall -Wextra -g
 
 FLAGS_LINK =		-lm $(LIBFT_LINK)
 
-all: $(NAME) $(LIBFT)
+all: $(LIBFT) $(NAME) $(NAME_PACKER) 
 
 $(LIBFT):
 	make -C $(LIBFT_DIR)
@@ -67,11 +73,15 @@ $(LIBFT):
 $(OBJS_DIR):
 	mkdir -p $(OBJS_DIR)
 	mkdir -p $(OBJS_DIR)/wad_reader
+	mkdir -p $(OBJS_DIR)/packer
 
 $(OBJS_DIR)/%.o: $(SRCS_DIR)/%.c $(HEADERS)
 	gcc $(FLAGS_COMPILE) $(INCLUDES) -o $@ -c $<
 
-$(NAME): $(LIBFT) $(OBJS_DIR) $(OBJS)
+$(NAME_PACKER): $(OBJS_DIR) $(OBJS_PACKER)
+	gcc $(OBJS_PACKER) $(FLAGS_LINK) -o $(NAME_PACKER)
+
+$(NAME): $(OBJS_DIR) $(OBJS)
 	gcc $(OBJS) $(FLAGS_LINK) -o $(NAME)
 
 clean:

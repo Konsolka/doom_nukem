@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mburl <mburl@student.42.fr>                +#+  +:+       +#+        */
+/*   By: konsolka <konsolka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/19 16:20:22 by konsolka          #+#    #+#             */
-/*   Updated: 2020/11/23 16:45:28 by mburl            ###   ########.fr       */
+/*   Updated: 2020/11/28 19:08:26 by konsolka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,7 +65,7 @@ void	read_header(const uint8_t *p_wad_data, int offset, t_header *header)
 	header->wad_type[4] = '\0';
 	header->dir_count = bytes_to_integer(p_wad_data, offset + 4);
 	header->dir_offset = bytes_to_integer(p_wad_data, offset + 8);
-	// printf("WAD Type = %s\nDir Offset = %d\nDir Count = %d\n", header->wad_type, header->dir_offset, header->dir_count);
+	printf("WAD Type = %s\nDir Offset = %d\nDir Count = %d\n", header->wad_type, header->dir_offset, header->dir_count);
 }
 
 void	read_dir_data(const uint8_t *p_wad_data, int offset, t_directory *dir)
@@ -141,7 +141,7 @@ int		main(int ac, char **av)
 	t_file	file;
 
 	file = read_wad(av[1]);
-	load_map("E1M1", file);
+	// load_map("E1M1", file);
 	free(file.p_wad_data);
 	(void)ac;
 	exit(0);
