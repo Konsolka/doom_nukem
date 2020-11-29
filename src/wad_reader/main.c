@@ -6,7 +6,7 @@
 /*   By: konsolka <konsolka@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/19 16:20:22 by konsolka          #+#    #+#             */
-/*   Updated: 2020/11/28 19:08:26 by konsolka         ###   ########.fr       */
+/*   Updated: 2020/11/28 20:57:33 by konsolka         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -95,7 +95,7 @@ void	wad_reader(t_file *file)
 	{
 		read_dir_data(file->p_wad_data, file->header.dir_offset + 16 * i, &dir);
 		vec_pushback(&file->dir, &dir);
-		// printf("name = %s   offset = %d   size = %d\n", file->dir[i].lump_name, file->dir[i].lump_offset, file->dir[i].lump_size);
+		printf("name = %s   offset = %d   size = %d\n", file->dir[i].lump_name, file->dir[i].lump_offset, file->dir[i].lump_size);
 		i++;
 	}
 }
